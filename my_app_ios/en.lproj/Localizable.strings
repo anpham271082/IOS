@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  my_app_ios
+
+  Created by An Pham Ngoc on 6/18/25.
+  
+*/
+"login_title" = "Welcome Back";
+"email_placeholder" = "Email Address";
+"password_placeholder" = "Password";
+"login_button" = "Login";
+"login_failed" = "Login failed. Please try again.";

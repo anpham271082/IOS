@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Xkf-N4-eaj">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--NavigationController_Swift-->
+        <scene sceneID="Pd1-hB-wHh">
+            <objects>
+                <navigationController storyboardIdentifier="NavigationController_Swift" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Xkf-N4-eaj" userLabel="NavigationController_Swift" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="T8C-qS-Rx4">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="p5T-hP-c97" kind="relationship" relationship="rootViewController" id="949-Ok-rRL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cWr-Of-u8b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1076" y="-673"/>
+        </scene>
+        <!--MainVC-->
+        <scene sceneID="aNn-Li-axD">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="MainVC" storyboardName="Main_Swift" referencedIdentifier="MainVC" id="p5T-hP-c97" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="RVw-Sf-4Ow"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wlw-d6-cXA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-456" y="-673"/>
+        </scene>
+    </scenes>
+</document>

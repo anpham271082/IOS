@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  my_app_ios
+
+  Created by An Pham Ngoc on 6/18/25.
+  
+*/
+"login_title" = "Chào mừng trở lại";
+"email_placeholder" = "Địa chỉ email";
+"password_placeholder" = "Mật khẩu";
+"login_button" = "Đăng nhập";
+"login_failed" = "Đăng nhập thất bại. Vui lòng thử lại.";

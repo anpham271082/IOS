@@ -1,0 +1,52 @@
+//
+//  PrefixHeader.pch
+//  my_app_ios
+//
+//  Created by An Pham Ngoc on 6/7/25.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "CTHConstant.h"
+#import "CTHPlatform.h"
+#import "CTHHelper.h"
+#import "CTHLanguage.h"
+#import "CTHJson.h"
+#import "CTHCache.h"
+
+#import "CTHFont.h"
+#import "CTHUserDefined.h"
+#import "CTHView.h"
+#import "CTHLabel.h"
+#import "CTHButton.h"
+#import "CTHTextField.h"
+#import "CTHImageView.h"
+#import "CTHWKWebView.h"
+#import "CTHSwitch.h"
+#import "CTHSlideIndicate.h"
+#import "CTHPageDot.h"
+#import "CTHDepthScrollView.h"
+#import "CTHVideo.h"
+#import "CTHSlider.h"
+#import "CTHProgressBar.h"
+#import "CTHLineChart.h"
+#import "CTHCircleChart.h"
+#import "CTHArcChart.h"
+#import "CTHDGActivityIndicator.h"
+
+
+#import "CTHDialog.h"
+#import "CTHCoreData.h"
+#import "CTHSocial.h"
+#import "CTHCamera.h"
+#import "CTHController.h"
+
+#import "CTHDownload.h"
+#import "CTHSqlite.h"
+#import "CTHBaseApi.h"
+#import "CTHConnection.h"
+
+#endif /* PrefixHeader_pch */
