@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -20,8 +20,9 @@
                     </tabBar>
                     <connections>
                         <segue destination="Ebg-kR-tVF" kind="relationship" relationship="viewControllers" id="usW-Ed-KTf"/>
-                        <segue destination="nG4-vx-atN" kind="relationship" relationship="viewControllers" id="0FW-BO-drq"/>
-                        <segue destination="RhI-hV-tqD" kind="relationship" relationship="viewControllers" id="fEs-qp-pF2"/>
+                        <segue destination="Wuu-l8-GEk" kind="relationship" relationship="viewControllers" id="FzN-tb-CoJ"/>
+                        <segue destination="nG4-vx-atN" kind="relationship" relationship="viewControllers" id="ye8-YQ-Hjp"/>
+                        <segue destination="RhI-hV-tqD" kind="relationship" relationship="viewControllers" id="GMh-Qh-73P"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PgY-YB-62E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -31,7 +32,7 @@
         <!--PopulationVC-->
         <scene sceneID="B5T-97-L59">
             <objects>
-                <viewController id="Ebg-kR-tVF" userLabel="PopulationVC" customClass="SwiftPopulationController" customModule="project_ios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Ebg-kR-tVF" userLabel="PopulationVC" customClass="SwiftPopulationController" customModule="my_app_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eLD-n8-2CH">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -40,7 +41,7 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="710"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="SwiftPopulationCell" rowHeight="80" id="ZgT-ev-ecK" customClass="SwiftPopulationCell" customModule="project_ios" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="SwiftPopulationCell" rowHeight="80" id="ZgT-ev-ecK" customClass="SwiftPopulationCell" customModule="my_app_ios" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZgT-ev-ecK" id="qsf-cE-0ac">
@@ -205,7 +206,7 @@
         <!--MapVC-->
         <scene sceneID="Yub-H2-OgN">
             <objects>
-                <viewController id="nG4-vx-atN" userLabel="MapVC" customClass="SwiftMapController" customModule="project_ios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="nG4-vx-atN" userLabel="MapVC" customClass="SwiftMapController" customModule="my_app_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HfI-4Z-gnZ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -221,7 +222,7 @@
         <!--SettingVC-->
         <scene sceneID="fM0-Qw-lUN">
             <objects>
-                <viewController id="RhI-hV-tqD" userLabel="SettingVC" customClass="SwiftSettingController" customModule="project_ios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="RhI-hV-tqD" userLabel="SettingVC" customClass="SwiftSettingController" customModule="my_app_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W8f-da-xGo">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -231,7 +232,7 @@
                                 <autoresizingMask key="autoresizingMask"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="SwiftSettingCell" rowHeight="50" id="Z3g-1I-pfg" customClass="SwiftSettingCell" customModule="project_ios" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="SwiftSettingCell" rowHeight="50" id="Z3g-1I-pfg" customClass="SwiftSettingCell" customModule="my_app_ios" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Z3g-1I-pfg" id="ZCm-MZ-R94">
@@ -303,16 +304,24 @@
             </objects>
             <point key="canvasLocation" x="336.64122137404581" y="-1263.3802816901409"/>
         </scene>
+        <!--Users-->
+        <scene sceneID="5HE-jH-VXv">
+            <objects>
+                <viewController id="Wuu-l8-GEk" customClass="SwiftUserController" customModule="my_app_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bBY-zt-rhr">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="hAj-cm-FXE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Users" id="suY-kq-0n4"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B2Q-Hw-rlS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1230" y="-1940"/>
+        </scene>
     </scenes>
-    <designables>
-        <designable name="9gf-fy-hnn"/>
-        <designable name="VAm-Lg-eqe"/>
-        <designable name="ZkK-Zn-KJg"/>
-        <designable name="dO7-7o-Noj"/>
-        <designable name="i3i-La-Fll"/>
-        <designable name="kch-9M-wlc"/>
-        <designable name="lTn-h8-MIC"/>
-    </designables>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

@@ -101,6 +101,9 @@
 		06B9B8A82E03A6FF0018D81B /* UtilsLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B8A72E03A6FF0018D81B /* UtilsLogger.swift */; };
 		06B9B8AB2E03A90C0018D81B /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B8AA2E03A90C0018D81B /* AppConfig.swift */; };
 		06B9B8BA2E03AF950018D81B /* APIRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B8B92E03AF950018D81B /* APIRoute.swift */; };
+		06EB9AC32E297563005E04F3 /* SwiftUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EB9AC22E297557005E04F3 /* SwiftUserModel.swift */; };
+		06EB9AC52E29759A005E04F3 /* SwiftUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EB9AC42E297596005E04F3 /* SwiftUserCell.swift */; };
+		06EB9AC72E2975CD005E04F3 /* SwiftUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EB9AC62E2975C2005E04F3 /* SwiftUserController.swift */; };
 		2E56AF88E51C1231286243D2 /* Pods_my_app_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DCAD7DAB2BF4987920C5C4E /* Pods_my_app_iosTests.framework */; };
 		344F4AC14BAA72FE7276A3C3 /* Pods_my_app_ios_my_app_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F76C7B39A437BFAD64873EF /* Pods_my_app_ios_my_app_iosUITests.framework */; };
 		47609D2F8AB43709F858A380 /* Pods_my_app_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30619B7A7D4E5C4318DB2CAE /* Pods_my_app_ios.framework */; };
@@ -285,6 +288,9 @@
 		06B9B8A72E03A6FF0018D81B /* UtilsLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsLogger.swift; sourceTree = "<group>"; };
 		06B9B8AA2E03A90C0018D81B /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		06B9B8B92E03AF950018D81B /* APIRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRoute.swift; sourceTree = "<group>"; };
+		06EB9AC22E297557005E04F3 /* SwiftUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUserModel.swift; sourceTree = "<group>"; };
+		06EB9AC42E297596005E04F3 /* SwiftUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUserCell.swift; sourceTree = "<group>"; };
+		06EB9AC62E2975C2005E04F3 /* SwiftUserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUserController.swift; sourceTree = "<group>"; };
 		17E8D13264DBFBB00E412F52 /* Pods-my_app_ios-my_app_iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-my_app_ios-my_app_iosUITests.release.xcconfig"; path = "Target Support Files/Pods-my_app_ios-my_app_iosUITests/Pods-my_app_ios-my_app_iosUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1F76C7B39A437BFAD64873EF /* Pods_my_app_ios_my_app_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_my_app_ios_my_app_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30619B7A7D4E5C4318DB2CAE /* Pods_my_app_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_my_app_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -683,6 +689,8 @@
 			children = (
 				06B9B8842DFFB00B0018D81B /* SwiftPopulationController.swift */,
 				06B9B8852DFFB00B0018D81B /* SwiftPopulationCell.swift */,
+				06EB9AC42E297596005E04F3 /* SwiftUserCell.swift */,
+				06EB9AC62E2975C2005E04F3 /* SwiftUserController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -698,6 +706,7 @@
 		06B9B8792DFBB1510018D81B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				06EB9AC22E297557005E04F3 /* SwiftUserModel.swift */,
 				06B9B87E2DFDB2190018D81B /* SwiftPopulationModel.swift */,
 			);
 			path = Model;
@@ -1090,6 +1099,7 @@
 				06B9B7152DF5C9400018D81B /* CTHWKWebView.m in Sources */,
 				06B9B7162DF5C9400018D81B /* CTHButton.m in Sources */,
 				06B9B7172DF5C9400018D81B /* CTHTextField.m in Sources */,
+				06EB9AC32E297563005E04F3 /* SwiftUserModel.swift in Sources */,
 				06B9B8602DF9301C0018D81B /* UtilsPhotoGallery.swift in Sources */,
 				06B9B87F2DFDB2190018D81B /* SwiftPopulationModel.swift in Sources */,
 				06B9B7182DF5C9400018D81B /* CTHDepthScrollView.m in Sources */,
@@ -1110,6 +1120,7 @@
 				06B9B79C2DF673AD0018D81B /* CTHDownload.m in Sources */,
 				06B9B7892DF6732E0018D81B /* ProcessKeyboardController.m in Sources */,
 				06B9B78A2DF6732E0018D81B /* ViewController.m in Sources */,
+				06EB9AC52E29759A005E04F3 /* SwiftUserCell.swift in Sources */,
 				06B9B85A2DF92FDC0018D81B /* UIButton+Extensions.swift in Sources */,
 				06B9B85B2DF92FDC0018D81B /* UIDevice+Extensions.swift in Sources */,
 				06B9B85C2DF92FDC0018D81B /* UIFont+Extensions.swift in Sources */,
@@ -1151,6 +1162,7 @@
 				06B9B74C2DF5CBD40018D81B /* CTHPlatform.m in Sources */,
 				06B9B8A82E03A6FF0018D81B /* UtilsLogger.swift in Sources */,
 				06B9B74D2DF5CBD40018D81B /* CTHFont.m in Sources */,
+				06EB9AC72E2975CD005E04F3 /* SwiftUserController.swift in Sources */,
 				06B9B74E2DF5CBD40018D81B /* CTHLanguage.m in Sources */,
 				06B9B8BA2E03AF950018D81B /* APIRoute.swift in Sources */,
 				06B9B8AB2E03A90C0018D81B /* AppConfig.swift in Sources */,
