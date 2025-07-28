@@ -107,6 +107,7 @@ PODS:
   - SDWebImage (5.21.0):
     - SDWebImage/Core (= 5.21.0)
   - SDWebImage/Core (5.21.0)
+  - SideMenu (6.5.0)
   - SQLCipher (4.7.0):
     - SQLCipher/standard (= 4.7.0)
   - SQLCipher/common (4.7.0)
@@ -135,6 +136,7 @@ DEPENDENCIES:
   - NSHash
   - Realm
   - SDWebImage
+  - SideMenu
   - SQLCipher
   - SSZipArchive
   - STTwitter
@@ -175,6 +177,7 @@ SPEC REPOS:
     - Realm
     - RecaptchaInterop
     - SDWebImage
+    - SideMenu
     - SQLCipher
     - SSZipArchive
     - STTwitter
@@ -214,11 +217,12 @@ SPEC CHECKSUMS:
   Realm: 395416e3b150a37ca12fee6477a2ec8c11f8a048
   RecaptchaInterop: 11e0b637842dfb48308d242afc3f448062325aba
   SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
   SQLCipher: ba9d0076041ed767c5bd3d3f77098318d04a403c
   SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
   STTwitter: 30ee2f79eff78c3d633a1edc869e97db9c9ead59
   SwiftLint: 3d48e2fb2a3468fdaccf049e5e755df22fb40c2c
 
-PODFILE CHECKSUM: 10dd53e1b4d5e7c26d4948d6b3b7c16ae9a199b5
+PODFILE CHECKSUM: 7f2b3f9ca06c251a32d70df7b0a9b850bb5e43d8
 
 COCOAPODS: 1.16.2

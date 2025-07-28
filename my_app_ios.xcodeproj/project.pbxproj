@@ -10,6 +10,8 @@
 		06506E6F2DF53F42008AB5CD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06506E6E2DF53F42008AB5CD /* CoreData.framework */; };
 		06506E712DF53F4B008AB5CD /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06506E702DF53F4B008AB5CD /* CoreMedia.framework */; };
 		06506ECB2DF5405D008AB5CD /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06506ECA2DF5405D008AB5CD /* Social.framework */; };
+		066A794E2E37349E00457D90 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066A794D2E37349C00457D90 /* MenuViewController.swift */; };
+		066A79502E3734C700457D90 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066A794F2E3734C500457D90 /* MainTabBarController.swift */; };
 		06B9B7142DF5C9400018D81B /* CTHSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B7062DF5C9400018D81B /* CTHSlider.m */; };
 		06B9B7152DF5C9400018D81B /* CTHWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B7102DF5C9400018D81B /* CTHWKWebView.m */; };
 		06B9B7162DF5C9400018D81B /* CTHButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B6F42DF5C9400018D81B /* CTHButton.m */; };
@@ -134,6 +136,8 @@
 		06506E6E2DF53F42008AB5CD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		06506E702DF53F4B008AB5CD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		06506ECA2DF5405D008AB5CD /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		066A794D2E37349C00457D90 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		066A794F2E3734C500457D90 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		06B9B68E2DF551230018D81B /* CTHConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTHConstant.h; sourceTree = "<group>"; };
 		06B9B6F12DF5C9400018D81B /* CTHArcChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTHArcChart.h; sourceTree = "<group>"; };
 		06B9B6F22DF5C9400018D81B /* CTHArcChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTHArcChart.m; sourceTree = "<group>"; };
@@ -579,6 +583,8 @@
 		06B9B81D2DF7540E0018D81B /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				066A794D2E37349C00457D90 /* MenuViewController.swift */,
+				066A794F2E3734C500457D90 /* MainTabBarController.swift */,
 				06B9B89D2E039B720018D81B /* Profile */,
 				06B9B89C2E039B6A0018D81B /* Home */,
 				06B9B8762DFBB11B0018D81B /* Population */,
@@ -1095,6 +1101,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				06B9B8992E01AA480018D81B /* Tutorial3.swift in Sources */,
+				066A79502E3734C700457D90 /* MainTabBarController.swift in Sources */,
+				066A794E2E37349E00457D90 /* MenuViewController.swift in Sources */,
 				06B9B7142DF5C9400018D81B /* CTHSlider.m in Sources */,
 				06B9B7152DF5C9400018D81B /* CTHWKWebView.m in Sources */,
 				06B9B7162DF5C9400018D81B /* CTHButton.m in Sources */,

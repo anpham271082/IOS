@@ -34,7 +34,7 @@ target 'my_app_ios' do
 	pod 'DTTJailbreakDetection'
 	pod 'SDWebImage'
 	pod 'DGActivityIndicatorView'
-	
+	pod 'SideMenu'
   target 'my_app_iosTests' do
     inherit! :search_paths
     # Pods for testing

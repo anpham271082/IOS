@@ -12,7 +12,7 @@
         <!--MainVC-->
         <scene sceneID="XoE-mf-Rhz">
             <objects>
-                <tabBarController storyboardIdentifier="MainVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JII-kV-vN5" userLabel="MainVC" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MainVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JII-kV-vN5" userLabel="MainVC" customClass="MainTabBarController" customModule="my_app_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8cy-db-tBX">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
