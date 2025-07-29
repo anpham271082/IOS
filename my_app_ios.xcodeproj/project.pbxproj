@@ -12,6 +12,12 @@
 		06506ECB2DF5405D008AB5CD /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06506ECA2DF5405D008AB5CD /* Social.framework */; };
 		066A794E2E37349E00457D90 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066A794D2E37349C00457D90 /* MenuViewController.swift */; };
 		066A79502E3734C700457D90 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066A794F2E3734C500457D90 /* MainTabBarController.swift */; };
+		066A79532E3882CC00457D90 /* PhotoGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066A79522E3882CB00457D90 /* PhotoGridView.swift */; };
+		066A79552E3882F500457D90 /* MyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066A79542E3882F200457D90 /* MyImage.swift */; };
+		066A79572E38830C00457D90 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066A79562E38830B00457D90 /* DetailView.swift */; };
+		066A79592E38833300457D90 /* DetailView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066A79582E38833100457D90 /* DetailView2.swift */; };
+		066A795B2E388B9500457D90 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 066A795A2E388B9500457D90 /* SwiftUI.framework */; };
+		066A795D2E38903B00457D90 /* SwiftSlideImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066A795C2E38902300457D90 /* SwiftSlideImageController.swift */; };
 		06B9B7142DF5C9400018D81B /* CTHSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B7062DF5C9400018D81B /* CTHSlider.m */; };
 		06B9B7152DF5C9400018D81B /* CTHWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B7102DF5C9400018D81B /* CTHWKWebView.m */; };
 		06B9B7162DF5C9400018D81B /* CTHButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B6F42DF5C9400018D81B /* CTHButton.m */; };
@@ -138,6 +144,12 @@
 		06506ECA2DF5405D008AB5CD /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		066A794D2E37349C00457D90 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		066A794F2E3734C500457D90 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		066A79522E3882CB00457D90 /* PhotoGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridView.swift; sourceTree = "<group>"; };
+		066A79542E3882F200457D90 /* MyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImage.swift; sourceTree = "<group>"; };
+		066A79562E38830B00457D90 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		066A79582E38833100457D90 /* DetailView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView2.swift; sourceTree = "<group>"; };
+		066A795A2E388B9500457D90 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		066A795C2E38902300457D90 /* SwiftSlideImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSlideImageController.swift; sourceTree = "<group>"; };
 		06B9B68E2DF551230018D81B /* CTHConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTHConstant.h; sourceTree = "<group>"; };
 		06B9B6F12DF5C9400018D81B /* CTHArcChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTHArcChart.h; sourceTree = "<group>"; };
 		06B9B6F22DF5C9400018D81B /* CTHArcChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTHArcChart.m; sourceTree = "<group>"; };
@@ -342,6 +354,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				066A795B2E388B9500457D90 /* SwiftUI.framework in Frameworks */,
 				06506E712DF53F4B008AB5CD /* CoreMedia.framework in Frameworks */,
 				47609D2F8AB43709F858A380 /* Pods_my_app_ios.framework in Frameworks */,
 				06506E6F2DF53F42008AB5CD /* CoreData.framework in Frameworks */,
@@ -392,6 +405,18 @@
 				06506C712DF14E0D008AB5CD /* my_app_iosUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		066A79512E3882BA00457D90 /* ZoomTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				066A79522E3882CB00457D90 /* PhotoGridView.swift */,
+				066A795C2E38902300457D90 /* SwiftSlideImageController.swift */,
+				066A79562E38830B00457D90 /* DetailView.swift */,
+				066A79582E38833100457D90 /* DetailView2.swift */,
+				066A79542E3882F200457D90 /* MyImage.swift */,
+			);
+			path = ZoomTransitions;
 			sourceTree = "<group>";
 		};
 		06B9B6732DF550A10018D81B /* object_c */ = {
@@ -585,6 +610,7 @@
 			children = (
 				066A794D2E37349C00457D90 /* MenuViewController.swift */,
 				066A794F2E3734C500457D90 /* MainTabBarController.swift */,
+				066A79512E3882BA00457D90 /* ZoomTransitions */,
 				06B9B89D2E039B720018D81B /* Profile */,
 				06B9B89C2E039B6A0018D81B /* Home */,
 				06B9B8762DFBB11B0018D81B /* Population */,
@@ -793,6 +819,7 @@
 		7C8B7C6A44C251D27D5588D1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				066A795A2E388B9500457D90 /* SwiftUI.framework */,
 				06506ECA2DF5405D008AB5CD /* Social.framework */,
 				06506E702DF53F4B008AB5CD /* CoreMedia.framework */,
 				06506E6E2DF53F42008AB5CD /* CoreData.framework */,
@@ -1111,11 +1138,13 @@
 				06B9B8602DF9301C0018D81B /* UtilsPhotoGallery.swift in Sources */,
 				06B9B87F2DFDB2190018D81B /* SwiftPopulationModel.swift in Sources */,
 				06B9B7182DF5C9400018D81B /* CTHDepthScrollView.m in Sources */,
+				066A79592E38833300457D90 /* DetailView2.swift in Sources */,
 				06B9B8A42E03A1400018D81B /* Colors.swift in Sources */,
 				06B9B7192DF5C9400018D81B /* CTHView.m in Sources */,
 				06B9B71A2DF5C9400018D81B /* CTHArcChart.m in Sources */,
 				06B9B7872DF6732E0018D81B /* LoadMoreTableFooterView.m in Sources */,
 				06B9B7882DF6732E0018D81B /* PrevViewControllerSegue.m in Sources */,
+				066A79572E38830C00457D90 /* DetailView.swift in Sources */,
 				06B9B8972E011A940018D81B /* Tutorial2.swift in Sources */,
 				06B9B7962DF6738C0018D81B /* CTHBaseConnection.m in Sources */,
 				06B9B88B2DFFDCC30018D81B /* SwiftPopulationViewModel.swift in Sources */,
@@ -1158,8 +1187,11 @@
 				06B9B7AF2DF675C00018D81B /* PopulationController.m in Sources */,
 				06B9B7B02DF675C00018D81B /* MapController.m in Sources */,
 				06B9B7B12DF675C00018D81B /* SettingCell.m in Sources */,
+				066A79532E3882CC00457D90 /* PhotoGridView.swift in Sources */,
 				06B9B7B22DF675C00018D81B /* PopulationCell.m in Sources */,
 				06B9B7682DF671E20018D81B /* CTHSocial.m in Sources */,
+				066A795D2E38903B00457D90 /* SwiftSlideImageController.swift in Sources */,
+				066A79552E3882F500457D90 /* MyImage.swift in Sources */,
 				06B9B8912DFFDF580018D81B /* UtilsSocial.swift in Sources */,
 				06B9B71D2DF5C9400018D81B /* CTHRadialGradientView.m in Sources */,
 				06B9B71E2DF5C9400018D81B /* CTHSwitch.m in Sources */,
@@ -1233,6 +1265,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F5B49146ECC5EADECE778BE0 /* Pods-my_app_ios.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(EMBEDDED_CONTENT_CONTAINS_SWIFT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
@@ -1251,7 +1284,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1273,6 +1306,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A673EC15082FF80FB6420E77 /* Pods-my_app_ios.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(EMBEDDED_CONTENT_CONTAINS_SWIFT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
@@ -1291,7 +1325,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

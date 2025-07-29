@@ -32,8 +32,8 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
 	}
 
 	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-		guard let tabBarVC = presentingViewController as? MainTabBarController else { return }
-		tabBarVC.selectedIndex = indexPath.row
+		//guard let tabBarVC = presentingViewController as? MainTabBarController else { return }
+		//tabBarVC.selectedIndex = indexPath.row
 		dismiss(animated: true, completion: nil)
 	}
 }

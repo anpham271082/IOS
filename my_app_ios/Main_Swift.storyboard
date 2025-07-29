@@ -21,8 +21,9 @@
                     <connections>
                         <segue destination="Ebg-kR-tVF" kind="relationship" relationship="viewControllers" id="usW-Ed-KTf"/>
                         <segue destination="Wuu-l8-GEk" kind="relationship" relationship="viewControllers" id="FzN-tb-CoJ"/>
-                        <segue destination="nG4-vx-atN" kind="relationship" relationship="viewControllers" id="ye8-YQ-Hjp"/>
-                        <segue destination="RhI-hV-tqD" kind="relationship" relationship="viewControllers" id="GMh-Qh-73P"/>
+                        <segue destination="ZqI-mr-n3e" kind="relationship" relationship="viewControllers" id="TUy-ju-Uil"/>
+                        <segue destination="nG4-vx-atN" kind="relationship" relationship="viewControllers" id="ELu-cf-FfC"/>
+                        <segue destination="RhI-hV-tqD" kind="relationship" relationship="viewControllers" id="q1O-ME-ON1"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PgY-YB-62E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -304,10 +305,10 @@
             </objects>
             <point key="canvasLocation" x="336.64122137404581" y="-1263.3802816901409"/>
         </scene>
-        <!--Users-->
+        <!--UsersVC-->
         <scene sceneID="5HE-jH-VXv">
             <objects>
-                <viewController id="Wuu-l8-GEk" customClass="SwiftUserController" customModule="my_app_ios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Wuu-l8-GEk" userLabel="UsersVC" customClass="SwiftUserController" customModule="my_app_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bBY-zt-rhr">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -320,6 +321,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B2Q-Hw-rlS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1230" y="-1940"/>
+        </scene>
+        <!--SlideImageVC-->
+        <scene sceneID="kSi-h6-MVO">
+            <objects>
+                <viewController id="ZqI-mr-n3e" userLabel="SlideImageVC" customClass="SwiftSlideImageController" customModule="my_app_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nhc-bI-l0f">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="BnF-9a-mZj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="SlideImage" id="BRE-GA-Vor"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bZ5-Jt-PWP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1553" y="-616"/>
         </scene>
     </scenes>
     <resources>
