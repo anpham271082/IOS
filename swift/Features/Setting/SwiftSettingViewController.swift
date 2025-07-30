@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-class SwiftSettingController: UIViewController {
+class SwiftSettingViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     var array: NSMutableArray = NSMutableArray()
     override func viewDidLoad() {
@@ -32,7 +32,7 @@ class SwiftSettingController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 }
-extension SwiftSettingController: UITableViewDelegate, UITableViewDataSource {
+extension SwiftSettingViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SwiftSettingCell") as! SwiftSettingCell
         cell.delegate = self;
@@ -48,7 +48,7 @@ extension SwiftSettingController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     }
 }
-extension SwiftSettingController: SwiftSettingCellDelegate {
+extension SwiftSettingViewController: SwiftSettingCellDelegate {
     func actionSetting(_ swiftSettingCell: SwiftSettingCell){
         switch(swiftSettingCell.index){
             case 0:

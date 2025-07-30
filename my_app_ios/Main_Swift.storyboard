@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -22,8 +21,9 @@
                         <segue destination="Ebg-kR-tVF" kind="relationship" relationship="viewControllers" id="usW-Ed-KTf"/>
                         <segue destination="Wuu-l8-GEk" kind="relationship" relationship="viewControllers" id="FzN-tb-CoJ"/>
                         <segue destination="ZqI-mr-n3e" kind="relationship" relationship="viewControllers" id="TUy-ju-Uil"/>
-                        <segue destination="nG4-vx-atN" kind="relationship" relationship="viewControllers" id="ELu-cf-FfC"/>
-                        <segue destination="RhI-hV-tqD" kind="relationship" relationship="viewControllers" id="q1O-ME-ON1"/>
+                        <segue destination="dc7-Xe-fsH" kind="relationship" relationship="viewControllers" id="PpH-fi-P1N"/>
+                        <segue destination="nG4-vx-atN" kind="relationship" relationship="viewControllers" id="V62-4D-cmb"/>
+                        <segue destination="RhI-hV-tqD" kind="relationship" relationship="viewControllers" id="sGh-MQ-tcY"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PgY-YB-62E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -33,7 +33,7 @@
         <!--PopulationVC-->
         <scene sceneID="B5T-97-L59">
             <objects>
-                <viewController id="Ebg-kR-tVF" userLabel="PopulationVC" customClass="SwiftPopulationController" customModule="my_app_ios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Ebg-kR-tVF" userLabel="PopulationVC" customClass="SwiftPopulationViewController" customModule="my_app_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eLD-n8-2CH">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -63,7 +63,7 @@
                                                         <constraint firstAttribute="height" constant="26" id="nwc-O3-LWQ"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="fontStyleLabel">
@@ -75,7 +75,7 @@
                                                     <rect key="frame" x="196.66666666666663" y="0.0" width="196.33333333333337" height="26"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="fontStyleLabel">
@@ -87,7 +87,7 @@
                                                     <rect key="frame" x="0.0" y="26" width="196.66666666666666" height="26"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="fontStyleLabel">
@@ -99,7 +99,7 @@
                                                     <rect key="frame" x="196.66666666666663" y="26" width="196.33333333333337" height="26"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="fontStyleLabel">
@@ -111,7 +111,7 @@
                                                     <rect key="frame" x="0.0" y="52" width="197" height="31"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="fontStyleLabel">
@@ -121,7 +121,7 @@
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8eB-fQ-ToO">
                                                     <rect key="frame" x="0.0" y="78" width="393" height="2"/>
-                                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="2" id="wjC-8x-WBh"/>
                                                     </constraints>
@@ -130,7 +130,7 @@
                                                     <rect key="frame" x="197" y="52" width="196" height="26"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="fontStyleLabel">
@@ -139,7 +139,7 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </label>
                                             </subviews>
-                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstItem="dO7-7o-Noj" firstAttribute="top" secondItem="kch-9M-wlc" secondAttribute="bottom" id="6CS-hP-Ts3"/>
                                                 <constraint firstItem="kch-9M-wlc" firstAttribute="leading" secondItem="ZkK-Zn-KJg" secondAttribute="trailing" id="8gO-pn-lYd"/>
@@ -187,7 +187,7 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="h7z-ld-qZ0"/>
-                        <color key="backgroundColor" red="0.92128556966781616" green="0.89806537791314667" blue="0.80084804609600835" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="51c-mW-cBG" firstAttribute="top" secondItem="h7z-ld-qZ0" secondAttribute="top" id="4fc-30-hpn"/>
                             <constraint firstItem="51c-mW-cBG" firstAttribute="bottom" secondItem="h7z-ld-qZ0" secondAttribute="bottom" id="G8w-uZ-bpN"/>
@@ -207,7 +207,7 @@
         <!--MapVC-->
         <scene sceneID="Yub-H2-OgN">
             <objects>
-                <viewController id="nG4-vx-atN" userLabel="MapVC" customClass="SwiftMapController" customModule="my_app_ios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="nG4-vx-atN" userLabel="MapVC" customClass="SwiftMapViewController" customModule="my_app_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HfI-4Z-gnZ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -223,7 +223,7 @@
         <!--SettingVC-->
         <scene sceneID="fM0-Qw-lUN">
             <objects>
-                <viewController id="RhI-hV-tqD" userLabel="SettingVC" customClass="SwiftSettingController" customModule="my_app_ios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="RhI-hV-tqD" userLabel="SettingVC" customClass="SwiftSettingViewController" customModule="my_app_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W8f-da-xGo">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -308,7 +308,7 @@
         <!--UsersVC-->
         <scene sceneID="5HE-jH-VXv">
             <objects>
-                <viewController id="Wuu-l8-GEk" userLabel="UsersVC" customClass="SwiftUserController" customModule="my_app_ios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Wuu-l8-GEk" userLabel="UsersVC" customClass="SwiftUserViewController" customModule="my_app_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bBY-zt-rhr">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -325,18 +325,34 @@
         <!--SlideImageVC-->
         <scene sceneID="kSi-h6-MVO">
             <objects>
-                <viewController id="ZqI-mr-n3e" userLabel="SlideImageVC" customClass="SwiftSlideImageController" customModule="my_app_ios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ZqI-mr-n3e" userLabel="SlideImageVC" customClass="SwiftSlideImageViewController" customModule="my_app_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nhc-bI-l0f">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="BnF-9a-mZj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="SlideImage" id="BRE-GA-Vor"/>
+                    <tabBarItem key="tabBarItem" title="Images" id="BRE-GA-Vor"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bZ5-Jt-PWP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1553" y="-616"/>
+        </scene>
+        <!--Swipe CardVC-->
+        <scene sceneID="3Xc-aS-TmG">
+            <objects>
+                <viewController id="dc7-Xe-fsH" userLabel="Swipe CardVC" customClass="SwipeCardViewController" customModule="my_app_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dZb-av-3Qb">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ome-dT-0OV"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Swipe Card" id="oJW-my-Wck"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dNx-lQ-B17" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2373" y="-1307"/>
         </scene>
     </scenes>
     <resources>

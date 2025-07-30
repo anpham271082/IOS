@@ -12,7 +12,7 @@ enum RefreshState {
 	case readyToRelease
 	case loading
 }
-class SwiftPopulationController: UIViewController {
+class SwiftPopulationViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
 	
 	let refreshControl = UIRefreshControl()
@@ -38,7 +38,7 @@ class SwiftPopulationController: UIViewController {
 		activityIndicator.frame = arrowImageView.frame
 		activityIndicator.hidesWhenStopped = true
 
-		statusLabel.text = "Kéo để làm mới"
+		statusLabel.text = "Pull to refresh"
 		statusLabel.font = .systemFont(ofSize: 14)
 		statusLabel.textAlignment = .center
 		statusLabel.frame = CGRect(x: (view.frame.width - 200)/2 + 10, y: 10, width: 150, height: 20)
@@ -65,19 +65,19 @@ class SwiftPopulationController: UIViewController {
 		case .idle:
 			arrowImageView.isHidden = false
 			activityIndicator.stopAnimating()
-			statusLabel.text = "Kéo để làm mới"
+			statusLabel.text = "Pull to refresh"
 			UIView.animate(withDuration: 0.2) {
 				self.arrowImageView.transform = .identity
 			}
 		case .readyToRelease:
-			statusLabel.text = "Thả để làm mới"
+			statusLabel.text = "Release to refresh"
 			UIView.animate(withDuration: 0.2) {
 				self.arrowImageView.transform = CGAffineTransform(rotationAngle: .pi)
 			}
 		case .loading:
 			arrowImageView.isHidden = true
 			activityIndicator.startAnimating()
-			statusLabel.text = "Đang làm mới..."
+			statusLabel.text = "Refreshing..."
 		}
 	}
 	
@@ -109,7 +109,7 @@ class SwiftPopulationController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 }
-extension SwiftPopulationController: UITableViewDelegate, UITableViewDataSource, UIScrollViewDelegate {
+extension SwiftPopulationViewController: UITableViewDelegate, UITableViewDataSource, UIScrollViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SwiftPopulationCell") as! SwiftPopulationCell
         cell.delegate = self;
@@ -124,6 +124,42 @@ extension SwiftPopulationController: UITableViewDelegate, UITableViewDataSource,
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     }
+	
+	func tableView(_ tableView: UITableView,
+				   trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath
+	) -> UISwipeActionsConfiguration? {
+		
+		// Action delete
+		let deleteAction = UIContextualAction(style: .destructive, title: "Delete") { [weak self] (action, view, completionHandler) in
+			guard let self = self else { return }
+
+			let alert = UIAlertController(title: "Confirmation", message: "Are you sure you want to delete this item?", preferredStyle: .alert)
+			alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: { _ in
+				completionHandler(false)
+			}))
+			alert.addAction(UIAlertAction(title: "Delete", style: .destructive, handler: { _ in
+				self.dataViewModel.deleteItem(at: indexPath.row)
+				tableView.deleteRows(at: [indexPath], with: .left)
+				completionHandler(true)
+			}))
+			self.present(alert, animated: true, completion: nil)
+		}
+		deleteAction.backgroundColor = .systemRed
+		deleteAction.image = UIImage(systemName: "trash")
+
+		// Action edit
+		let editAction = UIContextualAction(style: .normal, title: "Edit") { (action, view, completionHandler) in
+			print("Edit row \(indexPath.row)")
+			completionHandler(true)
+		}
+		editAction.backgroundColor = .systemOrange
+		editAction.image = UIImage(systemName: "pencil")
+
+		let config = UISwipeActionsConfiguration(actions: [deleteAction, editAction])
+		config.performsFirstActionWithFullSwipe = false 
+		return config
+	}
+	
 	
 	func scrollViewDidScroll(_ scrollView: UIScrollView) {
 		guard !refreshControl.isRefreshing else { return }
@@ -144,8 +180,10 @@ extension SwiftPopulationController: UITableViewDelegate, UITableViewDataSource,
 			triggerRefresh()
 		}
 	}
+	
+	
 }
-extension SwiftPopulationController: SwiftPopulationCellDelegate {
+extension SwiftPopulationViewController: SwiftPopulationCellDelegate {
     func actionPopulation(_ swiftPopulationCell: SwiftPopulationCell){
 		UtilsLogger.log(swiftPopulationCell.populationModel)
     }

@@ -17,7 +17,7 @@
 		066A79572E38830C00457D90 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066A79562E38830B00457D90 /* DetailView.swift */; };
 		066A79592E38833300457D90 /* DetailView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066A79582E38833100457D90 /* DetailView2.swift */; };
 		066A795B2E388B9500457D90 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 066A795A2E388B9500457D90 /* SwiftUI.framework */; };
-		066A795D2E38903B00457D90 /* SwiftSlideImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066A795C2E38902300457D90 /* SwiftSlideImageController.swift */; };
+		066A795D2E38903B00457D90 /* SwiftSlideImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066A795C2E38902300457D90 /* SwiftSlideImageViewController.swift */; };
 		06B9B7142DF5C9400018D81B /* CTHSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B7062DF5C9400018D81B /* CTHSlider.m */; };
 		06B9B7152DF5C9400018D81B /* CTHWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B7102DF5C9400018D81B /* CTHWKWebView.m */; };
 		06B9B7162DF5C9400018D81B /* CTHButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B6F42DF5C9400018D81B /* CTHButton.m */; };
@@ -91,14 +91,14 @@
 		06B9B86F2DFBA0C70018D81B /* APIConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B86E2DFBA0C70018D81B /* APIConnect.swift */; };
 		06B9B8712DFBA53B0018D81B /* APIAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B8702DFBA53B0018D81B /* APIAlamofire.swift */; };
 		06B9B8732DFBA6CC0018D81B /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B8722DFBA6CC0018D81B /* UIView+Extensions.swift */; };
-		06B9B87D2DFBE5DD0018D81B /* SwiftMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B87C2DFBE5DD0018D81B /* SwiftMapController.swift */; };
+		06B9B87D2DFBE5DD0018D81B /* SwiftMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B87C2DFBE5DD0018D81B /* SwiftMapViewController.swift */; };
 		06B9B87F2DFDB2190018D81B /* SwiftPopulationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B87E2DFDB2190018D81B /* SwiftPopulationModel.swift */; };
 		06B9B8812DFDFE380018D81B /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B8802DFDFE380018D81B /* UIImage+Extensions.swift */; };
 		06B9B8832DFE06C80018D81B /* UIScrollView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B8822DFE06C80018D81B /* UIScrollView+Extensions.swift */; };
-		06B9B8862DFFB00B0018D81B /* SwiftPopulationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B8842DFFB00B0018D81B /* SwiftPopulationController.swift */; };
+		06B9B8862DFFB00B0018D81B /* SwiftPopulationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B8842DFFB00B0018D81B /* SwiftPopulationViewController.swift */; };
 		06B9B8872DFFB00B0018D81B /* SwiftPopulationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B8852DFFB00B0018D81B /* SwiftPopulationCell.swift */; };
 		06B9B88B2DFFDCC30018D81B /* SwiftPopulationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B88A2DFFDCC30018D81B /* SwiftPopulationViewModel.swift */; };
-		06B9B88D2DFFDE660018D81B /* SwiftSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B88C2DFFDE660018D81B /* SwiftSettingController.swift */; };
+		06B9B88D2DFFDE660018D81B /* SwiftSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B88C2DFFDE660018D81B /* SwiftSettingViewController.swift */; };
 		06B9B88F2DFFDE870018D81B /* SwiftSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B88E2DFFDE870018D81B /* SwiftSettingCell.swift */; };
 		06B9B8912DFFDF580018D81B /* UtilsSocial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B8902DFFDF580018D81B /* UtilsSocial.swift */; };
 		06B9B8952E0061E30018D81B /* Tutorial1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B8942E0061E30018D81B /* Tutorial1.swift */; };
@@ -111,7 +111,9 @@
 		06B9B8BA2E03AF950018D81B /* APIRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B8B92E03AF950018D81B /* APIRoute.swift */; };
 		06EB9AC32E297563005E04F3 /* SwiftUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EB9AC22E297557005E04F3 /* SwiftUserModel.swift */; };
 		06EB9AC52E29759A005E04F3 /* SwiftUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EB9AC42E297596005E04F3 /* SwiftUserCell.swift */; };
-		06EB9AC72E2975CD005E04F3 /* SwiftUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EB9AC62E2975C2005E04F3 /* SwiftUserController.swift */; };
+		06EB9AC72E2975CD005E04F3 /* SwiftUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EB9AC62E2975C2005E04F3 /* SwiftUserViewController.swift */; };
+		06F65D352E39D2A400AE3513 /* SwipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F65D342E39D2A200AE3513 /* SwipeCardView.swift */; };
+		06F65D372E39D2D600AE3513 /* SwipeCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F65D362E39D2C900AE3513 /* SwipeCardViewController.swift */; };
 		2E56AF88E51C1231286243D2 /* Pods_my_app_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DCAD7DAB2BF4987920C5C4E /* Pods_my_app_iosTests.framework */; };
 		344F4AC14BAA72FE7276A3C3 /* Pods_my_app_ios_my_app_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F76C7B39A437BFAD64873EF /* Pods_my_app_ios_my_app_iosUITests.framework */; };
 		47609D2F8AB43709F858A380 /* Pods_my_app_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30619B7A7D4E5C4318DB2CAE /* Pods_my_app_ios.framework */; };
@@ -149,7 +151,7 @@
 		066A79562E38830B00457D90 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		066A79582E38833100457D90 /* DetailView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView2.swift; sourceTree = "<group>"; };
 		066A795A2E388B9500457D90 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		066A795C2E38902300457D90 /* SwiftSlideImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSlideImageController.swift; sourceTree = "<group>"; };
+		066A795C2E38902300457D90 /* SwiftSlideImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSlideImageViewController.swift; sourceTree = "<group>"; };
 		06B9B68E2DF551230018D81B /* CTHConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTHConstant.h; sourceTree = "<group>"; };
 		06B9B6F12DF5C9400018D81B /* CTHArcChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTHArcChart.h; sourceTree = "<group>"; };
 		06B9B6F22DF5C9400018D81B /* CTHArcChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTHArcChart.m; sourceTree = "<group>"; };
@@ -286,14 +288,14 @@
 		06B9B86E2DFBA0C70018D81B /* APIConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConnect.swift; sourceTree = "<group>"; };
 		06B9B8702DFBA53B0018D81B /* APIAlamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIAlamofire.swift; sourceTree = "<group>"; };
 		06B9B8722DFBA6CC0018D81B /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
-		06B9B87C2DFBE5DD0018D81B /* SwiftMapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMapController.swift; sourceTree = "<group>"; };
+		06B9B87C2DFBE5DD0018D81B /* SwiftMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMapViewController.swift; sourceTree = "<group>"; };
 		06B9B87E2DFDB2190018D81B /* SwiftPopulationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPopulationModel.swift; sourceTree = "<group>"; };
 		06B9B8802DFDFE380018D81B /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		06B9B8822DFE06C80018D81B /* UIScrollView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extensions.swift"; sourceTree = "<group>"; };
-		06B9B8842DFFB00B0018D81B /* SwiftPopulationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPopulationController.swift; sourceTree = "<group>"; };
+		06B9B8842DFFB00B0018D81B /* SwiftPopulationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPopulationViewController.swift; sourceTree = "<group>"; };
 		06B9B8852DFFB00B0018D81B /* SwiftPopulationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPopulationCell.swift; sourceTree = "<group>"; };
 		06B9B88A2DFFDCC30018D81B /* SwiftPopulationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPopulationViewModel.swift; sourceTree = "<group>"; };
-		06B9B88C2DFFDE660018D81B /* SwiftSettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSettingController.swift; sourceTree = "<group>"; };
+		06B9B88C2DFFDE660018D81B /* SwiftSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSettingViewController.swift; sourceTree = "<group>"; };
 		06B9B88E2DFFDE870018D81B /* SwiftSettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSettingCell.swift; sourceTree = "<group>"; };
 		06B9B8902DFFDF580018D81B /* UtilsSocial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsSocial.swift; sourceTree = "<group>"; };
 		06B9B8942E0061E30018D81B /* Tutorial1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial1.swift; sourceTree = "<group>"; };
@@ -306,7 +308,9 @@
 		06B9B8B92E03AF950018D81B /* APIRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRoute.swift; sourceTree = "<group>"; };
 		06EB9AC22E297557005E04F3 /* SwiftUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUserModel.swift; sourceTree = "<group>"; };
 		06EB9AC42E297596005E04F3 /* SwiftUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUserCell.swift; sourceTree = "<group>"; };
-		06EB9AC62E2975C2005E04F3 /* SwiftUserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUserController.swift; sourceTree = "<group>"; };
+		06EB9AC62E2975C2005E04F3 /* SwiftUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUserViewController.swift; sourceTree = "<group>"; };
+		06F65D342E39D2A200AE3513 /* SwipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeCardView.swift; sourceTree = "<group>"; };
+		06F65D362E39D2C900AE3513 /* SwipeCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeCardViewController.swift; sourceTree = "<group>"; };
 		17E8D13264DBFBB00E412F52 /* Pods-my_app_ios-my_app_iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-my_app_ios-my_app_iosUITests.release.xcconfig"; path = "Target Support Files/Pods-my_app_ios-my_app_iosUITests/Pods-my_app_ios-my_app_iosUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1F76C7B39A437BFAD64873EF /* Pods_my_app_ios_my_app_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_my_app_ios_my_app_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30619B7A7D4E5C4318DB2CAE /* Pods_my_app_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_my_app_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -411,7 +415,7 @@
 			isa = PBXGroup;
 			children = (
 				066A79522E3882CB00457D90 /* PhotoGridView.swift */,
-				066A795C2E38902300457D90 /* SwiftSlideImageController.swift */,
+				066A795C2E38902300457D90 /* SwiftSlideImageViewController.swift */,
 				066A79562E38830B00457D90 /* DetailView.swift */,
 				066A79582E38833100457D90 /* DetailView2.swift */,
 				066A79542E3882F200457D90 /* MyImage.swift */,
@@ -608,6 +612,7 @@
 		06B9B81D2DF7540E0018D81B /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				06F65D332E39D28F00AE3513 /* SwipeCard */,
 				066A794D2E37349C00457D90 /* MenuViewController.swift */,
 				066A794F2E3734C500457D90 /* MainTabBarController.swift */,
 				066A79512E3882BA00457D90 /* ZoomTransitions */,
@@ -692,7 +697,7 @@
 			isa = PBXGroup;
 			children = (
 				06B9B88E2DFFDE870018D81B /* SwiftSettingCell.swift */,
-				06B9B88C2DFFDE660018D81B /* SwiftSettingController.swift */,
+				06B9B88C2DFFDE660018D81B /* SwiftSettingViewController.swift */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -700,7 +705,7 @@
 		06B9B8752DFBB0FF0018D81B /* Map */ = {
 			isa = PBXGroup;
 			children = (
-				06B9B87C2DFBE5DD0018D81B /* SwiftMapController.swift */,
+				06B9B87C2DFBE5DD0018D81B /* SwiftMapViewController.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -719,10 +724,10 @@
 		06B9B8772DFBB12D0018D81B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				06B9B8842DFFB00B0018D81B /* SwiftPopulationController.swift */,
+				06B9B8842DFFB00B0018D81B /* SwiftPopulationViewController.swift */,
 				06B9B8852DFFB00B0018D81B /* SwiftPopulationCell.swift */,
 				06EB9AC42E297596005E04F3 /* SwiftUserCell.swift */,
-				06EB9AC62E2975C2005E04F3 /* SwiftUserController.swift */,
+				06EB9AC62E2975C2005E04F3 /* SwiftUserViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -814,6 +819,15 @@
 				06B9B8A52E03A4030018D81B /* Fonts.swift */,
 			);
 			path = Theme;
+			sourceTree = "<group>";
+		};
+		06F65D332E39D28F00AE3513 /* SwipeCard */ = {
+			isa = PBXGroup;
+			children = (
+				06F65D362E39D2C900AE3513 /* SwipeCardViewController.swift */,
+				06F65D342E39D2A200AE3513 /* SwipeCardView.swift */,
+			);
+			path = SwipeCard;
 			sourceTree = "<group>";
 		};
 		7C8B7C6A44C251D27D5588D1 /* Frameworks */ = {
@@ -1150,7 +1164,7 @@
 				06B9B88B2DFFDCC30018D81B /* SwiftPopulationViewModel.swift in Sources */,
 				06B9B8532DF86FD20018D81B /* PerSQLite.swift in Sources */,
 				06B9B8542DF86FD20018D81B /* APIDownload.swift in Sources */,
-				06B9B88D2DFFDE660018D81B /* SwiftSettingController.swift in Sources */,
+				06B9B88D2DFFDE660018D81B /* SwiftSettingViewController.swift in Sources */,
 				06B9B7972DF6738C0018D81B /* CTHSqlite.m in Sources */,
 				06B9B7982DF6738C0018D81B /* CTHConnection.m in Sources */,
 				06B9B7992DF6738C0018D81B /* CTHBaseApi.m in Sources */,
@@ -1169,6 +1183,7 @@
 				06B9B78B2DF6732E0018D81B /* EGORefreshTableHeaderView.m in Sources */,
 				06B9B84A2DF86EF70018D81B /* Global.swift in Sources */,
 				06B9B84B2DF86EF70018D81B /* UtilsValidation.swift in Sources */,
+				06F65D372E39D2D600AE3513 /* SwipeCardViewController.swift in Sources */,
 				06B9B84C2DF86EF70018D81B /* UtilsCrypto.swift in Sources */,
 				06B9B84D2DF86EF70018D81B /* PerCoreData.swift in Sources */,
 				06B9B84E2DF86EF70018D81B /* PerKeychain.swift in Sources */,
@@ -1190,19 +1205,19 @@
 				066A79532E3882CC00457D90 /* PhotoGridView.swift in Sources */,
 				06B9B7B22DF675C00018D81B /* PopulationCell.m in Sources */,
 				06B9B7682DF671E20018D81B /* CTHSocial.m in Sources */,
-				066A795D2E38903B00457D90 /* SwiftSlideImageController.swift in Sources */,
+				066A795D2E38903B00457D90 /* SwiftSlideImageViewController.swift in Sources */,
 				066A79552E3882F500457D90 /* MyImage.swift in Sources */,
 				06B9B8912DFFDF580018D81B /* UtilsSocial.swift in Sources */,
 				06B9B71D2DF5C9400018D81B /* CTHRadialGradientView.m in Sources */,
 				06B9B71E2DF5C9400018D81B /* CTHSwitch.m in Sources */,
 				06B9B71F2DF5C9400018D81B /* CTHCircleChart.m in Sources */,
 				06B9B7212DF5C9400018D81B /* CTHLineChart.m in Sources */,
-				06B9B87D2DFBE5DD0018D81B /* SwiftMapController.swift in Sources */,
+				06B9B87D2DFBE5DD0018D81B /* SwiftMapViewController.swift in Sources */,
 				06B9B7222DF5C9400018D81B /* CTHPageDot.m in Sources */,
 				06B9B74C2DF5CBD40018D81B /* CTHPlatform.m in Sources */,
 				06B9B8A82E03A6FF0018D81B /* UtilsLogger.swift in Sources */,
 				06B9B74D2DF5CBD40018D81B /* CTHFont.m in Sources */,
-				06EB9AC72E2975CD005E04F3 /* SwiftUserController.swift in Sources */,
+				06EB9AC72E2975CD005E04F3 /* SwiftUserViewController.swift in Sources */,
 				06B9B74E2DF5CBD40018D81B /* CTHLanguage.m in Sources */,
 				06B9B8BA2E03AF950018D81B /* APIRoute.swift in Sources */,
 				06B9B8AB2E03A90C0018D81B /* AppConfig.swift in Sources */,
@@ -1210,9 +1225,10 @@
 				06B9B7522DF5CBD40018D81B /* CTHJson.m in Sources */,
 				06B9B8A62E03A4030018D81B /* Fonts.swift in Sources */,
 				06B9B8712DFBA53B0018D81B /* APIAlamofire.swift in Sources */,
-				06B9B8862DFFB00B0018D81B /* SwiftPopulationController.swift in Sources */,
+				06B9B8862DFFB00B0018D81B /* SwiftPopulationViewController.swift in Sources */,
 				06B9B8872DFFB00B0018D81B /* SwiftPopulationCell.swift in Sources */,
 				06B9B7752DF672DA0018D81B /* CTHBaseBand.m in Sources */,
+				06F65D352E39D2A400AE3513 /* SwipeCardView.swift in Sources */,
 				06B9B7762DF672DA0018D81B /* CTHBandA.m in Sources */,
 				06B9B7772DF672DA0018D81B /* CTHBandHelper.m in Sources */,
 				06B9B8732DFBA6CC0018D81B /* UIView+Extensions.swift in Sources */,

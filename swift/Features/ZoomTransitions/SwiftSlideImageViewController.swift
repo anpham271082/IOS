@@ -8,7 +8,7 @@
 import UIKit
 import SwiftUI
 
-class SwiftSlideImageController: UIViewController {
+class SwiftSlideImageViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()

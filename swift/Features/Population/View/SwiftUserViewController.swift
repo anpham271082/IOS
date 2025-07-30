@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SwiftUserController: UIViewController {
+class SwiftUserViewController: UIViewController {
 
 	private let tableView = UITableView()
 	private var users: [SwiftUserModel] = []
@@ -40,7 +40,7 @@ class SwiftUserController: UIViewController {
 	}
 }
 
-extension SwiftUserController: UITableViewDataSource, UITableViewDelegate {
+extension SwiftUserViewController: UITableViewDataSource, UITableViewDelegate {
 	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 		users.count
 	}

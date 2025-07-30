@@ -39,4 +39,10 @@ class SwiftPopulationViewModel{
 	func getCellViewModel( at indexPath: IndexPath ) -> SwiftPopulationModel {
 		return cellViewModels[indexPath.row]
 	}
+	
+	func deleteItem(at index: Int) {
+		if index < self.cellViewModels.count {
+			self.cellViewModels.remove(at: index)
+		}
+	}
 }
