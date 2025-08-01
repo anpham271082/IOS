@@ -10,6 +10,19 @@
 		06506E6F2DF53F42008AB5CD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06506E6E2DF53F42008AB5CD /* CoreData.framework */; };
 		06506E712DF53F4B008AB5CD /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06506E702DF53F4B008AB5CD /* CoreMedia.framework */; };
 		06506ECB2DF5405D008AB5CD /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06506ECA2DF5405D008AB5CD /* Social.framework */; };
+		0652B6002E3C5D9B00A689C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0652B5FF2E3C5D9800A689C6 /* ContentView.swift */; };
+		0652B6022E3C5DBC00A689C6 /* ZoomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0652B6012E3C5DBA00A689C6 /* ZoomImageView.swift */; };
+		0652B6042E3C5DD700A689C6 /* CardFlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0652B6032E3C5DD500A689C6 /* CardFlipView.swift */; };
+		0652B6062E3C5E0600A689C6 /* SmoothScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0652B6052E3C5E0600A689C6 /* SmoothScrollView.swift */; };
+		0652B6082E3C5E1C00A689C6 /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0652B6072E3C5E1B00A689C6 /* BounceButton.swift */; };
+		0652B60A2E3C5E2E00A689C6 /* LiquidSwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0652B6092E3C5E2D00A689C6 /* LiquidSwipeView.swift */; };
+		0652B60C2E3C5E4200A689C6 /* FireworksBurstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0652B60B2E3C5E4100A689C6 /* FireworksBurstView.swift */; };
+		0652B60E2E3C5E5400A689C6 /* SmoothBlobMorphingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0652B60D2E3C5E5400A689C6 /* SmoothBlobMorphingView.swift */; };
+		0652B6102E3C618700A689C6 /* AnimationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0652B60F2E3C618000A689C6 /* AnimationsViewController.swift */; };
+		0652B6122E3C652800A689C6 /* ZoomedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0652B6112E3C652600A689C6 /* ZoomedImage.swift */; };
+		0652B6162E3C84A900A689C6 /* PageCurlController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0652B6152E3C84A800A689C6 /* PageCurlController.swift */; };
+		0652B61C2E3C870800A689C6 /* PageHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0652B61B2E3C870700A689C6 /* PageHostingController.swift */; };
+		0652B61E2E3C879000A689C6 /* PageCurlContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0652B61D2E3C877B00A689C6 /* PageCurlContentView.swift */; };
 		066A794E2E37349E00457D90 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066A794D2E37349C00457D90 /* MenuViewController.swift */; };
 		066A79502E3734C700457D90 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066A794F2E3734C500457D90 /* MainTabBarController.swift */; };
 		066A79532E3882CC00457D90 /* PhotoGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066A79522E3882CB00457D90 /* PhotoGridView.swift */; };
@@ -144,6 +157,19 @@
 		06506E6E2DF53F42008AB5CD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		06506E702DF53F4B008AB5CD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		06506ECA2DF5405D008AB5CD /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		0652B5FF2E3C5D9800A689C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0652B6012E3C5DBA00A689C6 /* ZoomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomImageView.swift; sourceTree = "<group>"; };
+		0652B6032E3C5DD500A689C6 /* CardFlipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFlipView.swift; sourceTree = "<group>"; };
+		0652B6052E3C5E0600A689C6 /* SmoothScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothScrollView.swift; sourceTree = "<group>"; };
+		0652B6072E3C5E1B00A689C6 /* BounceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
+		0652B6092E3C5E2D00A689C6 /* LiquidSwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidSwipeView.swift; sourceTree = "<group>"; };
+		0652B60B2E3C5E4100A689C6 /* FireworksBurstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireworksBurstView.swift; sourceTree = "<group>"; };
+		0652B60D2E3C5E5400A689C6 /* SmoothBlobMorphingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothBlobMorphingView.swift; sourceTree = "<group>"; };
+		0652B60F2E3C618000A689C6 /* AnimationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsViewController.swift; sourceTree = "<group>"; };
+		0652B6112E3C652600A689C6 /* ZoomedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomedImage.swift; sourceTree = "<group>"; };
+		0652B6152E3C84A800A689C6 /* PageCurlController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCurlController.swift; sourceTree = "<group>"; };
+		0652B61B2E3C870700A689C6 /* PageHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageHostingController.swift; sourceTree = "<group>"; };
+		0652B61D2E3C877B00A689C6 /* PageCurlContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCurlContentView.swift; sourceTree = "<group>"; };
 		066A794D2E37349C00457D90 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		066A794F2E3734C500457D90 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		066A79522E3882CB00457D90 /* PhotoGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridView.swift; sourceTree = "<group>"; };
@@ -411,6 +437,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		0652B5FE2E3C5D8E00A689C6 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				0652B5FF2E3C5D9800A689C6 /* ContentView.swift */,
+				0652B60F2E3C618000A689C6 /* AnimationsViewController.swift */,
+				0652B6012E3C5DBA00A689C6 /* ZoomImageView.swift */,
+				0652B6112E3C652600A689C6 /* ZoomedImage.swift */,
+				0652B6032E3C5DD500A689C6 /* CardFlipView.swift */,
+				0652B6052E3C5E0600A689C6 /* SmoothScrollView.swift */,
+				0652B6072E3C5E1B00A689C6 /* BounceButton.swift */,
+				0652B6092E3C5E2D00A689C6 /* LiquidSwipeView.swift */,
+				0652B60B2E3C5E4100A689C6 /* FireworksBurstView.swift */,
+				0652B60D2E3C5E5400A689C6 /* SmoothBlobMorphingView.swift */,
+				0652B6152E3C84A800A689C6 /* PageCurlController.swift */,
+				0652B61B2E3C870700A689C6 /* PageHostingController.swift */,
+				0652B61D2E3C877B00A689C6 /* PageCurlContentView.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
 		066A79512E3882BA00457D90 /* ZoomTransitions */ = {
 			isa = PBXGroup;
 			children = (
@@ -612,6 +658,7 @@
 		06B9B81D2DF7540E0018D81B /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				0652B5FE2E3C5D8E00A689C6 /* Animations */,
 				06F65D332E39D28F00AE3513 /* SwipeCard */,
 				066A794D2E37349C00457D90 /* MenuViewController.swift */,
 				066A794F2E3734C500457D90 /* MainTabBarController.swift */,
@@ -1148,6 +1195,7 @@
 				06B9B7152DF5C9400018D81B /* CTHWKWebView.m in Sources */,
 				06B9B7162DF5C9400018D81B /* CTHButton.m in Sources */,
 				06B9B7172DF5C9400018D81B /* CTHTextField.m in Sources */,
+				0652B6062E3C5E0600A689C6 /* SmoothScrollView.swift in Sources */,
 				06EB9AC32E297563005E04F3 /* SwiftUserModel.swift in Sources */,
 				06B9B8602DF9301C0018D81B /* UtilsPhotoGallery.swift in Sources */,
 				06B9B87F2DFDB2190018D81B /* SwiftPopulationModel.swift in Sources */,
@@ -1155,6 +1203,7 @@
 				066A79592E38833300457D90 /* DetailView2.swift in Sources */,
 				06B9B8A42E03A1400018D81B /* Colors.swift in Sources */,
 				06B9B7192DF5C9400018D81B /* CTHView.m in Sources */,
+				0652B6002E3C5D9B00A689C6 /* ContentView.swift in Sources */,
 				06B9B71A2DF5C9400018D81B /* CTHArcChart.m in Sources */,
 				06B9B7872DF6732E0018D81B /* LoadMoreTableFooterView.m in Sources */,
 				06B9B7882DF6732E0018D81B /* PrevViewControllerSegue.m in Sources */,
@@ -1164,6 +1213,8 @@
 				06B9B88B2DFFDCC30018D81B /* SwiftPopulationViewModel.swift in Sources */,
 				06B9B8532DF86FD20018D81B /* PerSQLite.swift in Sources */,
 				06B9B8542DF86FD20018D81B /* APIDownload.swift in Sources */,
+				0652B6162E3C84A900A689C6 /* PageCurlController.swift in Sources */,
+				0652B60E2E3C5E5400A689C6 /* SmoothBlobMorphingView.swift in Sources */,
 				06B9B88D2DFFDE660018D81B /* SwiftSettingViewController.swift in Sources */,
 				06B9B7972DF6738C0018D81B /* CTHSqlite.m in Sources */,
 				06B9B7982DF6738C0018D81B /* CTHConnection.m in Sources */,
@@ -1190,6 +1241,8 @@
 				06B9B84F2DF86EF70018D81B /* UtilsAppSetting.swift in Sources */,
 				06B9B78C2DF6732E0018D81B /* RefreshTableHeaderController.m in Sources */,
 				06B9B71B2DF5C9400018D81B /* CTHSlideIndicate.m in Sources */,
+				0652B60C2E3C5E4200A689C6 /* FireworksBurstView.swift in Sources */,
+				0652B61C2E3C870800A689C6 /* PageHostingController.swift in Sources */,
 				06B9B71C2DF5C9400018D81B /* CTHProgressBar.m in Sources */,
 				06B9B8832DFE06C80018D81B /* UIScrollView+Extensions.swift in Sources */,
 				06B9B88F2DFFDE870018D81B /* SwiftSettingCell.swift in Sources */,
@@ -1222,24 +1275,31 @@
 				06B9B8BA2E03AF950018D81B /* APIRoute.swift in Sources */,
 				06B9B8AB2E03A90C0018D81B /* AppConfig.swift in Sources */,
 				06B9B7512DF5CBD40018D81B /* CTHCache.m in Sources */,
+				0652B6082E3C5E1C00A689C6 /* BounceButton.swift in Sources */,
 				06B9B7522DF5CBD40018D81B /* CTHJson.m in Sources */,
 				06B9B8A62E03A4030018D81B /* Fonts.swift in Sources */,
 				06B9B8712DFBA53B0018D81B /* APIAlamofire.swift in Sources */,
+				0652B6102E3C618700A689C6 /* AnimationsViewController.swift in Sources */,
 				06B9B8862DFFB00B0018D81B /* SwiftPopulationViewController.swift in Sources */,
 				06B9B8872DFFB00B0018D81B /* SwiftPopulationCell.swift in Sources */,
 				06B9B7752DF672DA0018D81B /* CTHBaseBand.m in Sources */,
 				06F65D352E39D2A400AE3513 /* SwipeCardView.swift in Sources */,
 				06B9B7762DF672DA0018D81B /* CTHBandA.m in Sources */,
+				0652B61E2E3C879000A689C6 /* PageCurlContentView.swift in Sources */,
 				06B9B7772DF672DA0018D81B /* CTHBandHelper.m in Sources */,
+				0652B6042E3C5DD700A689C6 /* CardFlipView.swift in Sources */,
 				06B9B8732DFBA6CC0018D81B /* UIView+Extensions.swift in Sources */,
 				06B9B7782DF672DA0018D81B /* CTHBandC.m in Sources */,
 				06B9B7532DF5CBD40018D81B /* CTHHelper.m in Sources */,
+				0652B6022E3C5DBC00A689C6 /* ZoomImageView.swift in Sources */,
 				06B9B7552DF5CBD40018D81B /* CTHUserDefined.m in Sources */,
+				0652B6122E3C652800A689C6 /* ZoomedImage.swift in Sources */,
 				06B9B7282DF5C9730018D81B /* CTHDGActivityIndicator.m in Sources */,
 				06B9B7232DF5C9400018D81B /* CTHLabel.m in Sources */,
 				06B9B7242DF5C9400018D81B /* CTHImageView.m in Sources */,
 				06B9B72B2DF5C9FB0018D81B /* CTHVideo.m in Sources */,
 				06B9B86B2DFA11970018D81B /* String+Extensions.swift in Sources */,
+				0652B60A2E3C5E2E00A689C6 /* LiquidSwipeView.swift in Sources */,
 				06B9B75B2DF670C80018D81B /* PDKeychainBindings.m in Sources */,
 				06B9B75C2DF670C80018D81B /* PDKeychainBindingsController.m in Sources */,
 				06B9B76B2DF672900018D81B /* CTHController.m in Sources */,

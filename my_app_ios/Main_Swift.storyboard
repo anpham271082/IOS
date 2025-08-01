@@ -22,8 +22,7 @@
                         <segue destination="Wuu-l8-GEk" kind="relationship" relationship="viewControllers" id="FzN-tb-CoJ"/>
                         <segue destination="ZqI-mr-n3e" kind="relationship" relationship="viewControllers" id="TUy-ju-Uil"/>
                         <segue destination="dc7-Xe-fsH" kind="relationship" relationship="viewControllers" id="PpH-fi-P1N"/>
-                        <segue destination="nG4-vx-atN" kind="relationship" relationship="viewControllers" id="V62-4D-cmb"/>
-                        <segue destination="RhI-hV-tqD" kind="relationship" relationship="viewControllers" id="sGh-MQ-tcY"/>
+                        <segue destination="nC2-9l-02v" kind="relationship" relationship="viewControllers" id="E8p-eh-PvX"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PgY-YB-62E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -353,6 +352,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dNx-lQ-B17" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2373" y="-1307"/>
+        </scene>
+        <!--AnimationsVC-->
+        <scene sceneID="2dB-Mk-9TV">
+            <objects>
+                <viewController id="nC2-9l-02v" userLabel="AnimationsVC" customClass="AnimationsViewController" customModule="my_app_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DY9-ve-IM2">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="rkQ-j2-g3V"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="pZd-E8-03v"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a3J-It-Tmu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1558" y="-2618"/>
         </scene>
     </scenes>
     <resources>
