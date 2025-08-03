@@ -55,6 +55,8 @@ struct MultiShapeMorphingView: View {
 			}
 		}
 		.padding()
+		.navigationTitle("Smooth Morphing")
+		.navigationBarTitleDisplayMode(.inline)
 	}
 }
 

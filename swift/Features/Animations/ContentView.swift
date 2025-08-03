@@ -23,21 +23,23 @@ struct ContentView: View {
 				NavigationLink("Bounce Button") {
 					BounceButtonDemo()
 				}
-				NavigationLink("Liquid Swipe Effect") {
-					LiquidSwipeView()
-				}
 				NavigationLink("Fireworks Burst") {
 					FireworksBurstView()
 				}
 				NavigationLink("Morphing Shape Animation") {
 					MultiShapeMorphingView()
 				}
-				NavigationLink("Page Flip Navigation") {
+				NavigationLink("Page Curl") {
 					PageCurlContentView()
 				}
-				
+				NavigationLink("Fragmented Image") {
+					if let uiImage = UIImage(named: "beach") {
+						FragmentedImageView(image: uiImage)
+					} else {
+						Text("Image not found")
+					}
+				}
 			}
-			.navigationTitle("Animations Demo")
 		}
 	}
 }

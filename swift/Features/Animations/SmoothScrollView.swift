@@ -22,10 +22,12 @@ var body: some View {
 			   .padding(.vertical, 40)
 		   }
 		   .background(LinearGradient(colors: [.white, .blue.opacity(0.05)], startPoint: .top, endPoint: .bottom))
-		   .navigationTitle("🌍 Destinations")
 		   .scrollIndicators(.hidden)
 	   }
+	   .navigationTitle("🌍 Smooth Scroll + Parallax")
+	   .navigationBarTitleDisplayMode(.inline)
    }
+	
 }
 
 // MARK: - Card View

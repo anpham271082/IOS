@@ -23,6 +23,8 @@
                         <segue destination="ZqI-mr-n3e" kind="relationship" relationship="viewControllers" id="TUy-ju-Uil"/>
                         <segue destination="dc7-Xe-fsH" kind="relationship" relationship="viewControllers" id="PpH-fi-P1N"/>
                         <segue destination="nC2-9l-02v" kind="relationship" relationship="viewControllers" id="E8p-eh-PvX"/>
+                        <segue destination="nG4-vx-atN" kind="relationship" relationship="viewControllers" id="KTe-hE-F67"/>
+                        <segue destination="RhI-hV-tqD" kind="relationship" relationship="viewControllers" id="Te0-mX-b8g"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PgY-YB-62E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -48,7 +50,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="393" height="80"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EBr-dh-VOW">
+                                                <button hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EBr-dh-VOW">
                                                     <rect key="frame" x="0.0" y="0.0" width="393" height="70"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <connections>
@@ -211,7 +213,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="f93-cu-uEE"/>
-                        <color key="backgroundColor" red="0.94328004121780396" green="0.70681237951732112" blue="0.52142986385509138" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" id="Jbs-3z-8jY"/>
                 </viewController>
@@ -293,7 +295,7 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="URn-Vg-oP8"/>
-                        <color key="backgroundColor" red="0.60999919546710901" green="0.65763049737069557" blue="0.96611279249191284" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Setting" id="Q50-BS-Dn8"/>
                     <connections>
@@ -363,7 +365,7 @@
                         <viewLayoutGuide key="safeArea" id="rkQ-j2-g3V"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="pZd-E8-03v"/>
+                    <tabBarItem key="tabBarItem" title="Animations" id="pZd-E8-03v"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a3J-It-Tmu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

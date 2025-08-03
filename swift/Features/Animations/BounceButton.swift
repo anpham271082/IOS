@@ -48,37 +48,39 @@ struct PremiumBounceButton<Label: View>: View {
 
 	var body: some View {
 		label()
-			.font(.headline)
-			.foregroundColor(.white)
-			.padding(.horizontal, 28)
-			.padding(.vertical, 16)
-			.background(
-				ZStack {
-					theme.background
-						.clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
+		.font(.headline)
+		.foregroundColor(.white)
+		.padding(.horizontal, 28)
+		.padding(.vertical, 16)
+		.background(
+			ZStack {
+				theme.background
+					.clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
 
-					RoundedRectangle(cornerRadius: 20)
-						.stroke(theme.background, lineWidth: animateGlow ? 2 : 1)
-						.blur(radius: animateGlow ? 1.5 : 5)
-						.opacity(animateGlow ? 0.9 : 0)
-						.animation(.easeInOut(duration: 1).repeatForever(autoreverses: true), value: animateGlow)
-				}
-			)
-			.clipShape(RoundedRectangle(cornerRadius: 20))
-			.scaleEffect(isPressed ? 0.94 : 1.0)
-			.shadow(color: theme.shadow, radius: isPressed ? 6 : 14, x: 0, y: isPressed ? 2 : 6)
-			.gesture(
-				DragGesture(minimumDistance: 0)
-					.updating($isPressed) { _, state, _ in
-						state = true
-					}
-					.onEnded { _ in
-						UIImpactFeedbackGenerator(style: .light).impactOccurred()
-						action()
-					}
-			)
-			.onAppear {
-				animateGlow = true
+				RoundedRectangle(cornerRadius: 20)
+					.stroke(theme.background, lineWidth: animateGlow ? 2 : 1)
+					.blur(radius: animateGlow ? 1.5 : 5)
+					.opacity(animateGlow ? 0.9 : 0)
+					.animation(.easeInOut(duration: 1).repeatForever(autoreverses: true), value: animateGlow)
 			}
+		)
+		.clipShape(RoundedRectangle(cornerRadius: 20))
+		.scaleEffect(isPressed ? 0.94 : 1.0)
+		.shadow(color: theme.shadow, radius: isPressed ? 6 : 14, x: 0, y: isPressed ? 2 : 6)
+		.gesture(
+			DragGesture(minimumDistance: 0)
+				.updating($isPressed) { _, state, _ in
+					state = true
+				}
+				.onEnded { _ in
+					UIImpactFeedbackGenerator(style: .light).impactOccurred()
+					action()
+				}
+		)
+		.onAppear {
+			animateGlow = true
+		}
+		.navigationTitle("Bouce Button")
+		.navigationBarTitleDisplayMode(.inline)
 	}
 }

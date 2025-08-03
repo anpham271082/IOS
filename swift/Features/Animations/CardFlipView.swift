@@ -63,6 +63,9 @@ struct FlipCard<Front: View, Back: View>: View {
 		}
 		.animation(.easeInOut(duration: 0.8), value: isFlipped)
 		.shadow(color: .black.opacity(0.2), radius: 10, x: 0, y: 5)
+		
+		.navigationTitle("3D Card Flip")
+		.navigationBarTitleDisplayMode(.inline)
 	}
 }
 

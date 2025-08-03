@@ -15,7 +15,6 @@
 		0652B6042E3C5DD700A689C6 /* CardFlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0652B6032E3C5DD500A689C6 /* CardFlipView.swift */; };
 		0652B6062E3C5E0600A689C6 /* SmoothScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0652B6052E3C5E0600A689C6 /* SmoothScrollView.swift */; };
 		0652B6082E3C5E1C00A689C6 /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0652B6072E3C5E1B00A689C6 /* BounceButton.swift */; };
-		0652B60A2E3C5E2E00A689C6 /* LiquidSwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0652B6092E3C5E2D00A689C6 /* LiquidSwipeView.swift */; };
 		0652B60C2E3C5E4200A689C6 /* FireworksBurstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0652B60B2E3C5E4100A689C6 /* FireworksBurstView.swift */; };
 		0652B60E2E3C5E5400A689C6 /* SmoothBlobMorphingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0652B60D2E3C5E5400A689C6 /* SmoothBlobMorphingView.swift */; };
 		0652B6102E3C618700A689C6 /* AnimationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0652B60F2E3C618000A689C6 /* AnimationsViewController.swift */; };
@@ -122,6 +121,8 @@
 		06B9B8A82E03A6FF0018D81B /* UtilsLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B8A72E03A6FF0018D81B /* UtilsLogger.swift */; };
 		06B9B8AB2E03A90C0018D81B /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B8AA2E03A90C0018D81B /* AppConfig.swift */; };
 		06B9B8BA2E03AF950018D81B /* APIRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B8B92E03AF950018D81B /* APIRoute.swift */; };
+		06CD25322E3EED2B003B661B /* FragmentTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CD25312E3EED2A003B661B /* FragmentTileView.swift */; };
+		06D8E7842E3E4C190030A9CC /* FragmentedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D8E7832E3E4C180030A9CC /* FragmentedImageView.swift */; };
 		06EB9AC32E297563005E04F3 /* SwiftUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EB9AC22E297557005E04F3 /* SwiftUserModel.swift */; };
 		06EB9AC52E29759A005E04F3 /* SwiftUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EB9AC42E297596005E04F3 /* SwiftUserCell.swift */; };
 		06EB9AC72E2975CD005E04F3 /* SwiftUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EB9AC62E2975C2005E04F3 /* SwiftUserViewController.swift */; };
@@ -162,7 +163,6 @@
 		0652B6032E3C5DD500A689C6 /* CardFlipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFlipView.swift; sourceTree = "<group>"; };
 		0652B6052E3C5E0600A689C6 /* SmoothScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothScrollView.swift; sourceTree = "<group>"; };
 		0652B6072E3C5E1B00A689C6 /* BounceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
-		0652B6092E3C5E2D00A689C6 /* LiquidSwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidSwipeView.swift; sourceTree = "<group>"; };
 		0652B60B2E3C5E4100A689C6 /* FireworksBurstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireworksBurstView.swift; sourceTree = "<group>"; };
 		0652B60D2E3C5E5400A689C6 /* SmoothBlobMorphingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothBlobMorphingView.swift; sourceTree = "<group>"; };
 		0652B60F2E3C618000A689C6 /* AnimationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsViewController.swift; sourceTree = "<group>"; };
@@ -332,6 +332,8 @@
 		06B9B8A72E03A6FF0018D81B /* UtilsLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsLogger.swift; sourceTree = "<group>"; };
 		06B9B8AA2E03A90C0018D81B /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		06B9B8B92E03AF950018D81B /* APIRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRoute.swift; sourceTree = "<group>"; };
+		06CD25312E3EED2A003B661B /* FragmentTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FragmentTileView.swift; sourceTree = "<group>"; };
+		06D8E7832E3E4C180030A9CC /* FragmentedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FragmentedImageView.swift; sourceTree = "<group>"; };
 		06EB9AC22E297557005E04F3 /* SwiftUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUserModel.swift; sourceTree = "<group>"; };
 		06EB9AC42E297596005E04F3 /* SwiftUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUserCell.swift; sourceTree = "<group>"; };
 		06EB9AC62E2975C2005E04F3 /* SwiftUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUserViewController.swift; sourceTree = "<group>"; };
@@ -447,12 +449,13 @@
 				0652B6032E3C5DD500A689C6 /* CardFlipView.swift */,
 				0652B6052E3C5E0600A689C6 /* SmoothScrollView.swift */,
 				0652B6072E3C5E1B00A689C6 /* BounceButton.swift */,
-				0652B6092E3C5E2D00A689C6 /* LiquidSwipeView.swift */,
 				0652B60B2E3C5E4100A689C6 /* FireworksBurstView.swift */,
 				0652B60D2E3C5E5400A689C6 /* SmoothBlobMorphingView.swift */,
 				0652B6152E3C84A800A689C6 /* PageCurlController.swift */,
 				0652B61B2E3C870700A689C6 /* PageHostingController.swift */,
 				0652B61D2E3C877B00A689C6 /* PageCurlContentView.swift */,
+				06D8E7832E3E4C180030A9CC /* FragmentedImageView.swift */,
+				06CD25312E3EED2A003B661B /* FragmentTileView.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -1243,6 +1246,7 @@
 				06B9B71B2DF5C9400018D81B /* CTHSlideIndicate.m in Sources */,
 				0652B60C2E3C5E4200A689C6 /* FireworksBurstView.swift in Sources */,
 				0652B61C2E3C870800A689C6 /* PageHostingController.swift in Sources */,
+				06D8E7842E3E4C190030A9CC /* FragmentedImageView.swift in Sources */,
 				06B9B71C2DF5C9400018D81B /* CTHProgressBar.m in Sources */,
 				06B9B8832DFE06C80018D81B /* UIScrollView+Extensions.swift in Sources */,
 				06B9B88F2DFFDE870018D81B /* SwiftSettingCell.swift in Sources */,
@@ -1255,6 +1259,7 @@
 				06B9B7AF2DF675C00018D81B /* PopulationController.m in Sources */,
 				06B9B7B02DF675C00018D81B /* MapController.m in Sources */,
 				06B9B7B12DF675C00018D81B /* SettingCell.m in Sources */,
+				06CD25322E3EED2B003B661B /* FragmentTileView.swift in Sources */,
 				066A79532E3882CC00457D90 /* PhotoGridView.swift in Sources */,
 				06B9B7B22DF675C00018D81B /* PopulationCell.m in Sources */,
 				06B9B7682DF671E20018D81B /* CTHSocial.m in Sources */,
@@ -1299,7 +1304,6 @@
 				06B9B7242DF5C9400018D81B /* CTHImageView.m in Sources */,
 				06B9B72B2DF5C9FB0018D81B /* CTHVideo.m in Sources */,
 				06B9B86B2DFA11970018D81B /* String+Extensions.swift in Sources */,
-				0652B60A2E3C5E2E00A689C6 /* LiquidSwipeView.swift in Sources */,
 				06B9B75B2DF670C80018D81B /* PDKeychainBindings.m in Sources */,
 				06B9B75C2DF670C80018D81B /* PDKeychainBindingsController.m in Sources */,
 				06B9B76B2DF672900018D81B /* CTHController.m in Sources */,

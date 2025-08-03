@@ -16,7 +16,7 @@ struct FireworksBurstView: View {
 	var body: some View {
 		ZStack {
 			RadialGradient(
-				gradient: Gradient(colors: [Color.black, Color(red: 0.05, green: 0.05, blue: 0.1)]),
+				gradient: Gradient(colors: [Color(red: 0.3, green: 0.3, blue: 0.3), Color(red: 0.05, green: 0.05, blue: 0.1)]),
 				center: .center,
 				startRadius: 2,
 				endRadius: 500
@@ -30,6 +30,8 @@ struct FireworksBurstView: View {
 		.onReceive(timer) { _ in
 			burstID = UUID() // Trigger burst lại
 		}
+		.navigationTitle("Fireworks Burst")
+		.navigationBarTitleDisplayMode(.inline)
 	}
 }
 

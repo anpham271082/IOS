@@ -29,6 +29,8 @@ struct PageCurlContentView: View {
 			]
 		)
 		.edgesIgnoringSafeArea(.all)
+		.navigationTitle("Page Curl")
+		.navigationBarTitleDisplayMode(.inline)
 	}
 }
 struct PageCurlControllerWithState: UIViewControllerRepresentable {
