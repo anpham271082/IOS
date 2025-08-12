@@ -180,8 +180,6 @@ extension SwiftPopulationViewController: UITableViewDelegate, UITableViewDataSou
 			triggerRefresh()
 		}
 	}
-	
-	
 }
 extension SwiftPopulationViewController: SwiftPopulationCellDelegate {
     func actionPopulation(_ swiftPopulationCell: SwiftPopulationCell){
