@@ -32,6 +32,10 @@
 		066A795D2E38903B00457D90 /* SwiftSlideImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066A795C2E38902300457D90 /* SwiftSlideImageViewController.swift */; };
 		066E70542E4AE09100A0B194 /* ItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066E70532E4AE09000A0B194 /* ItemsTableViewCell.swift */; };
 		066E70562E4AE0AC00A0B194 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066E70552E4AE0A800A0B194 /* ItemsViewController.swift */; };
+		066E70582E4B731C00A0B194 /* SlideImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066E70572E4B731A00A0B194 /* SlideImageViewController.swift */; };
+		066E705A2E4B733800A0B194 /* FullScreenZoomImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066E70592E4B733500A0B194 /* FullScreenZoomImageViewController.swift */; };
+		066E705C2E4B7E4900A0B194 /* RippleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066E705B2E4B7E4700A0B194 /* RippleView.swift */; };
+		066E70622E4B809300A0B194 /* BounceButtonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066E70612E4B809200A0B194 /* BounceButtonDemo.swift */; };
 		06B9B7142DF5C9400018D81B /* CTHSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B7062DF5C9400018D81B /* CTHSlider.m */; };
 		06B9B7152DF5C9400018D81B /* CTHWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B7102DF5C9400018D81B /* CTHWKWebView.m */; };
 		06B9B7162DF5C9400018D81B /* CTHButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B9B6F42DF5C9400018D81B /* CTHButton.m */; };
@@ -132,6 +136,14 @@
 		06EB9AC72E2975CD005E04F3 /* SwiftUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EB9AC62E2975C2005E04F3 /* SwiftUserViewController.swift */; };
 		06F65D352E39D2A400AE3513 /* SwipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F65D342E39D2A200AE3513 /* SwipeCardView.swift */; };
 		06F65D372E39D2D600AE3513 /* SwipeCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F65D362E39D2C900AE3513 /* SwipeCardViewController.swift */; };
+		06F8FC7F2E5D3AC500104C63 /* ParallaxCarouselScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F8FC7E2E5D3AC400104C63 /* ParallaxCarouselScrollView.swift */; };
+		06F8FC812E5D3AEC00104C63 /* ParallaxCarouselScrollViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F8FC802E5D3AEA00104C63 /* ParallaxCarouselScrollViewModel.swift */; };
+		06F8FC832E5D3B3300104C63 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F8FC822E5D3B3100104C63 /* NetworkingManager.swift */; };
+		06F8FC8E2E5D44E500104C63 /* ScrollProgressTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F8FC8D2E5D44E500104C63 /* ScrollProgressTrackerView.swift */; };
+		06F8FC902E5D463C00104C63 /* HackerTextEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F8FC8F2E5D463C00104C63 /* HackerTextEffectView.swift */; };
+		06F8FCA32E5D56AD00104C63 /* ParticleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F8FCA22E5D56A500104C63 /* ParticleText.swift */; };
+		06F8FCCC2E5D5C3400104C63 /* ShimmerText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F8FCCB2E5D5C3100104C63 /* ShimmerText.swift */; };
+		06F8FCDD2E5D653000104C63 /* RadialMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F8FCDC2E5D652B00104C63 /* RadialMenu.swift */; };
 		2E56AF88E51C1231286243D2 /* Pods_my_app_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DCAD7DAB2BF4987920C5C4E /* Pods_my_app_iosTests.framework */; };
 		344F4AC14BAA72FE7276A3C3 /* Pods_my_app_ios_my_app_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F76C7B39A437BFAD64873EF /* Pods_my_app_ios_my_app_iosUITests.framework */; };
 		47609D2F8AB43709F858A380 /* Pods_my_app_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30619B7A7D4E5C4318DB2CAE /* Pods_my_app_ios.framework */; };
@@ -184,6 +196,10 @@
 		066A795C2E38902300457D90 /* SwiftSlideImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSlideImageViewController.swift; sourceTree = "<group>"; };
 		066E70532E4AE09000A0B194 /* ItemsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewCell.swift; sourceTree = "<group>"; };
 		066E70552E4AE0A800A0B194 /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		066E70572E4B731A00A0B194 /* SlideImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideImageViewController.swift; sourceTree = "<group>"; };
+		066E70592E4B733500A0B194 /* FullScreenZoomImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenZoomImageViewController.swift; sourceTree = "<group>"; };
+		066E705B2E4B7E4700A0B194 /* RippleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleView.swift; sourceTree = "<group>"; };
+		066E70612E4B809200A0B194 /* BounceButtonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceButtonDemo.swift; sourceTree = "<group>"; };
 		06B9B68E2DF551230018D81B /* CTHConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTHConstant.h; sourceTree = "<group>"; };
 		06B9B6F12DF5C9400018D81B /* CTHArcChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTHArcChart.h; sourceTree = "<group>"; };
 		06B9B6F22DF5C9400018D81B /* CTHArcChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTHArcChart.m; sourceTree = "<group>"; };
@@ -347,6 +363,14 @@
 		06EB9AC62E2975C2005E04F3 /* SwiftUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUserViewController.swift; sourceTree = "<group>"; };
 		06F65D342E39D2A200AE3513 /* SwipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeCardView.swift; sourceTree = "<group>"; };
 		06F65D362E39D2C900AE3513 /* SwipeCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeCardViewController.swift; sourceTree = "<group>"; };
+		06F8FC7E2E5D3AC400104C63 /* ParallaxCarouselScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCarouselScrollView.swift; sourceTree = "<group>"; };
+		06F8FC802E5D3AEA00104C63 /* ParallaxCarouselScrollViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCarouselScrollViewModel.swift; sourceTree = "<group>"; };
+		06F8FC822E5D3B3100104C63 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		06F8FC8D2E5D44E500104C63 /* ScrollProgressTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollProgressTrackerView.swift; sourceTree = "<group>"; };
+		06F8FC8F2E5D463C00104C63 /* HackerTextEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerTextEffectView.swift; sourceTree = "<group>"; };
+		06F8FCA22E5D56A500104C63 /* ParticleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleText.swift; sourceTree = "<group>"; };
+		06F8FCCB2E5D5C3100104C63 /* ShimmerText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerText.swift; sourceTree = "<group>"; };
+		06F8FCDC2E5D652B00104C63 /* RadialMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialMenu.swift; sourceTree = "<group>"; };
 		17E8D13264DBFBB00E412F52 /* Pods-my_app_ios-my_app_iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-my_app_ios-my_app_iosUITests.release.xcconfig"; path = "Target Support Files/Pods-my_app_ios-my_app_iosUITests/Pods-my_app_ios-my_app_iosUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1F76C7B39A437BFAD64873EF /* Pods_my_app_ios_my_app_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_my_app_ios_my_app_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30619B7A7D4E5C4318DB2CAE /* Pods_my_app_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_my_app_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -450,22 +474,26 @@
 		0652B5FE2E3C5D8E00A689C6 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				06F8FC822E5D3B3100104C63 /* NetworkingManager.swift */,
+				06F8FC802E5D3AEA00104C63 /* ParallaxCarouselScrollViewModel.swift */,
+				066E70602E4B7FC600A0B194 /* ZoomedImage */,
+				066E705F2E4B7EF600A0B194 /* FragmentedImage */,
+				066E705E2E4B7EC900A0B194 /* PageCurl */,
+				066E705D2E4B7E6B00A0B194 /* Ripple */,
 				0652B5FF2E3C5D9800A689C6 /* ContentView.swift */,
 				0652B60F2E3C618000A689C6 /* AnimationsViewController.swift */,
-				0652B6012E3C5DBA00A689C6 /* ZoomImageView.swift */,
-				0652B6112E3C652600A689C6 /* ZoomedImage.swift */,
+				06F8FC8F2E5D463C00104C63 /* HackerTextEffectView.swift */,
 				0652B6032E3C5DD500A689C6 /* CardFlipView.swift */,
+				06F8FC7E2E5D3AC400104C63 /* ParallaxCarouselScrollView.swift */,
+				06F8FC8D2E5D44E500104C63 /* ScrollProgressTrackerView.swift */,
+				06F8FCA22E5D56A500104C63 /* ParticleText.swift */,
+				06F8FCCB2E5D5C3100104C63 /* ShimmerText.swift */,
 				0652B6052E3C5E0600A689C6 /* SmoothScrollView.swift */,
 				0652B6072E3C5E1B00A689C6 /* BounceButton.swift */,
+				066E70612E4B809200A0B194 /* BounceButtonDemo.swift */,
 				0652B60B2E3C5E4100A689C6 /* FireworksBurstView.swift */,
 				0652B60D2E3C5E5400A689C6 /* SmoothBlobMorphingView.swift */,
-				0652B6152E3C84A800A689C6 /* PageCurlController.swift */,
-				0652B61B2E3C870700A689C6 /* PageHostingController.swift */,
-				0652B61D2E3C877B00A689C6 /* PageCurlContentView.swift */,
-				06D8E7832E3E4C180030A9CC /* FragmentedImageView.swift */,
-				06CD25312E3EED2A003B661B /* FragmentTileView.swift */,
-				06CD255A2E413E29003B661B /* RippleShader.metal */,
-				06CD255C2E413E5A003B661B /* RippleEffectModifier.swift */,
+				06F8FCDC2E5D652B00104C63 /* RadialMenu.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -480,6 +508,44 @@
 				066A79542E3882F200457D90 /* MyImage.swift */,
 			);
 			path = ZoomTransitions;
+			sourceTree = "<group>";
+		};
+		066E705D2E4B7E6B00A0B194 /* Ripple */ = {
+			isa = PBXGroup;
+			children = (
+				06CD255A2E413E29003B661B /* RippleShader.metal */,
+				06CD255C2E413E5A003B661B /* RippleEffectModifier.swift */,
+				066E705B2E4B7E4700A0B194 /* RippleView.swift */,
+			);
+			path = Ripple;
+			sourceTree = "<group>";
+		};
+		066E705E2E4B7EC900A0B194 /* PageCurl */ = {
+			isa = PBXGroup;
+			children = (
+				0652B6152E3C84A800A689C6 /* PageCurlController.swift */,
+				0652B61B2E3C870700A689C6 /* PageHostingController.swift */,
+				0652B61D2E3C877B00A689C6 /* PageCurlContentView.swift */,
+			);
+			path = PageCurl;
+			sourceTree = "<group>";
+		};
+		066E705F2E4B7EF600A0B194 /* FragmentedImage */ = {
+			isa = PBXGroup;
+			children = (
+				06D8E7832E3E4C180030A9CC /* FragmentedImageView.swift */,
+				06CD25312E3EED2A003B661B /* FragmentTileView.swift */,
+			);
+			path = FragmentedImage;
+			sourceTree = "<group>";
+		};
+		066E70602E4B7FC600A0B194 /* ZoomedImage */ = {
+			isa = PBXGroup;
+			children = (
+				0652B6012E3C5DBA00A689C6 /* ZoomImageView.swift */,
+				0652B6112E3C652600A689C6 /* ZoomedImage.swift */,
+			);
+			path = ZoomedImage;
 			sourceTree = "<group>";
 		};
 		06B9B6732DF550A10018D81B /* ObjectC */ = {
@@ -661,6 +727,8 @@
 				06B9B8962E011A940018D81B /* Tutorial2.swift */,
 				066E70532E4AE09000A0B194 /* ItemsTableViewCell.swift */,
 				066E70552E4AE0A800A0B194 /* ItemsViewController.swift */,
+				066E70572E4B731A00A0B194 /* SlideImageViewController.swift */,
+				066E70592E4B733500A0B194 /* FullScreenZoomImageViewController.swift */,
 				06B9B8982E01AA480018D81B /* Tutorial3.swift */,
 				06B9B8A02E039EDE0018D81B /* Shared */,
 				06B9B89F2E039ED00018D81B /* Config */,
@@ -1233,8 +1301,11 @@
 				0652B6162E3C84A900A689C6 /* PageCurlController.swift in Sources */,
 				0652B60E2E3C5E5400A689C6 /* SmoothBlobMorphingView.swift in Sources */,
 				06B9B88D2DFFDE660018D81B /* SwiftSettingViewController.swift in Sources */,
+				066E70582E4B731C00A0B194 /* SlideImageViewController.swift in Sources */,
 				06B9B7972DF6738C0018D81B /* CTHSqlite.m in Sources */,
 				06B9B7982DF6738C0018D81B /* CTHConnection.m in Sources */,
+				066E705A2E4B733800A0B194 /* FullScreenZoomImageViewController.swift in Sources */,
+				06F8FC832E5D3B3300104C63 /* NetworkingManager.swift in Sources */,
 				06B9B7992DF6738C0018D81B /* CTHBaseApi.m in Sources */,
 				06B9B79C2DF673AD0018D81B /* CTHDownload.m in Sources */,
 				06B9B7892DF6732E0018D81B /* ProcessKeyboardController.m in Sources */,
@@ -1244,6 +1315,7 @@
 				06B9B85B2DF92FDC0018D81B /* UIDevice+Extensions.swift in Sources */,
 				06B9B85C2DF92FDC0018D81B /* UIFont+Extensions.swift in Sources */,
 				06B9B8812DFDFE380018D81B /* UIImage+Extensions.swift in Sources */,
+				06F8FCCC2E5D5C3400104C63 /* ShimmerText.swift in Sources */,
 				06B9B85D2DF92FDC0018D81B /* UIViewController+Extensions.swift in Sources */,
 				06B9B85E2DF92FDC0018D81B /* UILabel+Extensions.swift in Sources */,
 				06B9B7A22DF6758B0018D81B /* BaseModel.m in Sources */,
@@ -1266,6 +1338,7 @@
 				06B9B88F2DFFDE870018D81B /* SwiftSettingCell.swift in Sources */,
 				06B9B7652DF671E20018D81B /* CTHCamera.m in Sources */,
 				06B9B86D2DFB5ECF0018D81B /* Dictionary+Extensions.swift in Sources */,
+				06F8FC7F2E5D3AC500104C63 /* ParallaxCarouselScrollView.swift in Sources */,
 				06B9B7662DF671E20018D81B /* CTHCoreData.m in Sources */,
 				06B9B7672DF671E20018D81B /* CTHDialog.m in Sources */,
 				06B9B86F2DFBA0C70018D81B /* APIConnect.swift in Sources */,
@@ -1276,6 +1349,8 @@
 				06CD25322E3EED2B003B661B /* FragmentTileView.swift in Sources */,
 				066A79532E3882CC00457D90 /* PhotoGridView.swift in Sources */,
 				06B9B7B22DF675C00018D81B /* PopulationCell.m in Sources */,
+				06F8FC902E5D463C00104C63 /* HackerTextEffectView.swift in Sources */,
+				066E70622E4B809300A0B194 /* BounceButtonDemo.swift in Sources */,
 				06B9B7682DF671E20018D81B /* CTHSocial.m in Sources */,
 				06CD255D2E413E5B003B661B /* RippleEffectModifier.swift in Sources */,
 				066A795D2E38903B00457D90 /* SwiftSlideImageViewController.swift in Sources */,
@@ -1285,9 +1360,11 @@
 				06B9B71E2DF5C9400018D81B /* CTHSwitch.m in Sources */,
 				06B9B71F2DF5C9400018D81B /* CTHCircleChart.m in Sources */,
 				06B9B7212DF5C9400018D81B /* CTHLineChart.m in Sources */,
+				06F8FC812E5D3AEC00104C63 /* ParallaxCarouselScrollViewModel.swift in Sources */,
 				06B9B87D2DFBE5DD0018D81B /* SwiftMapViewController.swift in Sources */,
 				06B9B7222DF5C9400018D81B /* CTHPageDot.m in Sources */,
 				06B9B74C2DF5CBD40018D81B /* CTHPlatform.m in Sources */,
+				06F8FCA32E5D56AD00104C63 /* ParticleText.swift in Sources */,
 				06B9B8A82E03A6FF0018D81B /* UtilsLogger.swift in Sources */,
 				06B9B74D2DF5CBD40018D81B /* CTHFont.m in Sources */,
 				06EB9AC72E2975CD005E04F3 /* SwiftUserViewController.swift in Sources */,
@@ -1312,15 +1389,18 @@
 				06B9B8732DFBA6CC0018D81B /* UIView+Extensions.swift in Sources */,
 				06B9B7782DF672DA0018D81B /* CTHBandC.m in Sources */,
 				06B9B7532DF5CBD40018D81B /* CTHHelper.m in Sources */,
+				066E705C2E4B7E4900A0B194 /* RippleView.swift in Sources */,
 				0652B6022E3C5DBC00A689C6 /* ZoomImageView.swift in Sources */,
 				06B9B7552DF5CBD40018D81B /* CTHUserDefined.m in Sources */,
 				0652B6122E3C652800A689C6 /* ZoomedImage.swift in Sources */,
 				06B9B7282DF5C9730018D81B /* CTHDGActivityIndicator.m in Sources */,
 				06B9B7232DF5C9400018D81B /* CTHLabel.m in Sources */,
 				06B9B7242DF5C9400018D81B /* CTHImageView.m in Sources */,
+				06F8FCDD2E5D653000104C63 /* RadialMenu.swift in Sources */,
 				06B9B72B2DF5C9FB0018D81B /* CTHVideo.m in Sources */,
 				06B9B86B2DFA11970018D81B /* String+Extensions.swift in Sources */,
 				06B9B75B2DF670C80018D81B /* PDKeychainBindings.m in Sources */,
+				06F8FC8E2E5D44E500104C63 /* ScrollProgressTrackerView.swift in Sources */,
 				06B9B75C2DF670C80018D81B /* PDKeychainBindingsController.m in Sources */,
 				06B9B76B2DF672900018D81B /* CTHController.m in Sources */,
 				06B9B8952E0061E30018D81B /* Tutorial1.swift in Sources */,

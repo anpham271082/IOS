@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-import SwiftUI
-
 struct FireworksBurstView: View {
 	@State private var burstID = UUID() // Đổi ID để trigger lại mỗi lần
 	let timer = Timer.publish(every: 2, on: .main, in: .common).autoconnect()

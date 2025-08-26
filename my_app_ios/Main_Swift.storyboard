@@ -334,7 +334,7 @@
                         <viewLayoutGuide key="safeArea" id="BnF-9a-mZj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Images" id="BRE-GA-Vor"/>
+                    <tabBarItem key="tabBarItem" title="Images List" id="BRE-GA-Vor"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bZ5-Jt-PWP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

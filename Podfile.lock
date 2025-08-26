@@ -60,12 +60,15 @@ PODS:
     - GoogleUtilities/Environment (~> 8.0)
     - GTMSessionFetcher/Core (< 5.0, >= 3.4)
   - GDataXML-HTML (1.4.1)
+  - Google-Maps-iOS-Utils (6.1.0):
+    - GoogleMaps (~> 9.0)
   - GoogleDataTransport (10.1.0):
     - nanopb (~> 3.30910.0)
     - PromisesObjC (~> 2.4)
   - GoogleMaps (9.4.0):
     - GoogleMaps/Maps (= 9.4.0)
   - GoogleMaps/Maps (9.4.0)
+  - GooglePlaces (9.4.1)
   - GoogleUtilities/AppDelegateSwizzler (8.0.2):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
@@ -116,6 +119,7 @@ PODS:
   - SSZipArchive (2.4.3)
   - STTwitter (0.2.6)
   - SwiftLint (0.59.1)
+  - SwiftUI-Shimmer (1.4.0)
 
 DEPENDENCIES:
   - AESCrypt
@@ -131,7 +135,9 @@ DEPENDENCIES:
   - FirebaseMessaging
   - FirebaseStorage
   - GDataXML-HTML
+  - Google-Maps-iOS-Utils
   - GoogleMaps
+  - GooglePlaces
   - Kingfisher
   - NSHash
   - Realm
@@ -141,6 +147,7 @@ DEPENDENCIES:
   - SSZipArchive
   - STTwitter
   - SwiftLint
+  - SwiftUI-Shimmer (from `https://github.com/markiv/SwiftUI-Shimmer.git`)
 
 SPEC REPOS:
   trunk:
@@ -165,8 +172,10 @@ SPEC REPOS:
     - FirebaseSharedSwift
     - FirebaseStorage
     - GDataXML-HTML
+    - Google-Maps-iOS-Utils
     - GoogleDataTransport
     - GoogleMaps
+    - GooglePlaces
     - GoogleUtilities
     - GTMSessionFetcher
     - Kingfisher
@@ -182,6 +191,15 @@ SPEC REPOS:
     - SSZipArchive
     - STTwitter
     - SwiftLint
+
+EXTERNAL SOURCES:
+  SwiftUI-Shimmer:
+    :git: https://github.com/markiv/SwiftUI-Shimmer.git
+
+CHECKOUT OPTIONS:
+  SwiftUI-Shimmer:
+    :commit: 0226e21f9bf355d40e07e5f5e1c33679d50e167f
+    :git: https://github.com/markiv/SwiftUI-Shimmer.git
 
 SPEC CHECKSUMS:
   AESCrypt: 1d89bf8b0789cf274ab2205ea461adbe9321d5f8
@@ -205,8 +223,10 @@ SPEC CHECKSUMS:
   FirebaseSharedSwift: b1d32c3b29a911dc174bcf363f2f70bda9509d2f
   FirebaseStorage: 1c04b0ac8126b6fada8c9a09458f59c31868f2df
   GDataXML-HTML: a4f11079b48d9fe96ff1fe478943a317185227e2
+  Google-Maps-iOS-Utils: 0a484b05ed21d88c9f9ebbacb007956edd508a96
   GoogleDataTransport: aae35b7ea0c09004c3797d53c8c41f66f219d6a7
   GoogleMaps: 0608099d4870cac8754bdba9b6953db543432438
+  GooglePlaces: 8afca6c4e946472e91298589d1640d614b51749a
   GoogleUtilities: 26a3abef001b6533cf678d3eb38fd3f614b7872d
   GTMSessionFetcher: 75b671f9e551e4c49153d4c4f8659ef4f559b970
   Kingfisher: 0621d0ac0c78fecb19f6dc5303bde2b52abaf2f5
@@ -222,7 +242,8 @@ SPEC CHECKSUMS:
   SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
   STTwitter: 30ee2f79eff78c3d633a1edc869e97db9c9ead59
   SwiftLint: 3d48e2fb2a3468fdaccf049e5e755df22fb40c2c
+  SwiftUI-Shimmer: 26954ba07da310a50e24a3e54ce5684951ebbc17
 
-PODFILE CHECKSUM: 7f2b3f9ca06c251a32d70df7b0a9b850bb5e43d8
+PODFILE CHECKSUM: 5d44e364264e666fcd944503056e81569e35ffcf
 
 COCOAPODS: 1.16.2

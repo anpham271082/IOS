@@ -159,6 +159,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Google-Maps-iOS-Utils.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>GoogleDataTransport-GoogleDataTransport_Privacy.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -175,6 +180,16 @@
 			<false/>
 		</dict>
 		<key>GoogleMaps.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>GooglePlaces-GooglePlacesResources.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>GooglePlaces.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -280,6 +295,11 @@
 			<false/>
 		</dict>
 		<key>SwiftLint.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftUI-Shimmer.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

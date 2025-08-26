@@ -7,6 +7,8 @@ target 'my_app_ios' do
   use_frameworks!
   # Pods for my_app_ios
 	pod 'GoogleMaps'
+	pod 'Google-Maps-iOS-Utils'
+	pod 'GooglePlaces'
 	#swift
 	pod 'FirebaseCore'
 	pod 'FirebaseAuth'
@@ -30,6 +32,8 @@ target 'my_app_ios' do
 	pod 'SwiftLint'
 	pod 'Kingfisher'
 	pod 'Realm'
+	pod 'SwiftUI-Shimmer', :git => 'https://github.com/markiv/SwiftUI-Shimmer.git'
+
 	#object c
 	pod 'DTTJailbreakDetection'
 	pod 'SDWebImage'
