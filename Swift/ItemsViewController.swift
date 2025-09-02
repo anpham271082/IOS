@@ -15,6 +15,11 @@ class ItemsViewController: UIViewController {
 		(UIImage(named: "Hamburg"), "Ocean Sunset", "Golden rays reflecting on water", "HOT"),
 		(UIImage(named: "JoshuaTree"), "Mountain Peaks", "Snowy mountains in the morning", "TOP"),
 		(UIImage(named: "LonsdaleQuay"), "Desert Dunes", "Golden sands under clear sky", "NEW"),
+		(UIImage(named: "NobleRidge"), "City Lights", "Skyscrapers shining at night", "TOP"),
+		(UIImage(named: "Frankfurt"), "Aurora Lights", "Beautiful northern lights scenery", "NEW"),
+		(UIImage(named: "Hamburg"), "Ocean Sunset", "Golden rays reflecting on water", "HOT"),
+		(UIImage(named: "JoshuaTree"), "Mountain Peaks", "Snowy mountains in the morning", "TOP"),
+		(UIImage(named: "LonsdaleQuay"), "Desert Dunes", "Golden sands under clear sky", "NEW"),
 		(UIImage(named: "NobleRidge"), "City Lights", "Skyscrapers shining at night", "TOP")
 	]
 

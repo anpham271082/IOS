@@ -8,24 +8,23 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--MainVC-->
+        <!--MainTabBarController-->
         <scene sceneID="XoE-mf-Rhz">
             <objects>
-                <tabBarController storyboardIdentifier="MainVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JII-kV-vN5" userLabel="MainVC" customClass="MainTabBarController" customModule="my_app_ios" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MainVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JII-kV-vN5" userLabel="MainTabBarController" customClass="MainTabBarController" customModule="my_app_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8cy-db-tBX">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="Ebg-kR-tVF" kind="relationship" relationship="viewControllers" id="usW-Ed-KTf"/>
                         <segue destination="h9m-J7-v78" kind="relationship" relationship="viewControllers" id="Gy9-Vl-rka"/>
-                        <segue destination="dc7-Xe-fsH" kind="relationship" relationship="viewControllers" id="FZw-Ic-494"/>
-                        <segue destination="nC2-9l-02v" kind="relationship" relationship="viewControllers" id="mDA-QV-0aS"/>
-                        <segue destination="ZqI-mr-n3e" kind="relationship" relationship="viewControllers" id="1ob-Qd-nYH"/>
-                        <segue destination="Wuu-l8-GEk" kind="relationship" relationship="viewControllers" id="Lks-Ea-Cvr"/>
-                        <segue destination="nG4-vx-atN" kind="relationship" relationship="viewControllers" id="hSP-Km-J50"/>
-                        <segue destination="RhI-hV-tqD" kind="relationship" relationship="viewControllers" id="rEd-r0-oSI"/>
+                        <segue destination="Ebg-kR-tVF" kind="relationship" relationship="viewControllers" id="zXp-xV-3Ji"/>
+                        <segue destination="dc7-Xe-fsH" kind="relationship" relationship="viewControllers" id="tqC-Lg-5Sl"/>
+                        <segue destination="nC2-9l-02v" kind="relationship" relationship="viewControllers" id="2XJ-Uf-ygR"/>
+                        <segue destination="ZqI-mr-n3e" kind="relationship" relationship="viewControllers" id="N5Y-e0-mMZ"/>
+                        <segue destination="nG4-vx-atN" kind="relationship" relationship="viewControllers" id="oZD-DJ-Bdw"/>
+                        <segue destination="RhI-hV-tqD" kind="relationship" relationship="viewControllers" id="Fns-Xm-PWd"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PgY-YB-62E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -419,10 +418,71 @@
             </objects>
             <point key="canvasLocation" x="-1002.2900763358779" y="-1263.3802816901409"/>
         </scene>
+        <!--MainVC-->
+        <scene sceneID="XFL-Ba-AYT">
+            <objects>
+                <viewController id="WEV-bf-mdv" userLabel="MainVC" customClass="MainViewController" customModule="my_app_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XPN-VS-cOf">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Nx-ff-ShE">
+                                <rect key="frame" x="0.0" y="79" width="108" height="719"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="875-0e-g7t"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eL4-ox-S7E">
+                                <rect key="frame" x="128" y="79" width="265" height="719"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="265" id="QCW-Nf-sYe"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oHQ-Qa-Xby"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Nx-ff-ShE" firstAttribute="top" secondItem="oHQ-Qa-Xby" secondAttribute="top" constant="20" id="Rqf-Hj-Z87"/>
+                            <constraint firstItem="eL4-ox-S7E" firstAttribute="leading" secondItem="6Nx-ff-ShE" secondAttribute="trailing" constant="20" id="fyM-Iu-koy"/>
+                            <constraint firstItem="oHQ-Qa-Xby" firstAttribute="bottom" secondItem="6Nx-ff-ShE" secondAttribute="bottom" constant="20" id="hU9-MV-str"/>
+                            <constraint firstItem="oHQ-Qa-Xby" firstAttribute="bottom" secondItem="eL4-ox-S7E" secondAttribute="bottom" constant="20" id="i46-GO-qRP"/>
+                            <constraint firstItem="6Nx-ff-ShE" firstAttribute="leading" secondItem="oHQ-Qa-Xby" secondAttribute="leading" id="jkX-Bv-ETx"/>
+                            <constraint firstItem="eL4-ox-S7E" firstAttribute="top" secondItem="oHQ-Qa-Xby" secondAttribute="top" constant="20" id="nfk-gT-2xV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mainContent" destination="eL4-ox-S7E" id="fTB-U5-hEn"/>
+                        <outlet property="menuContent" destination="6Nx-ff-ShE" id="b8B-28-tLl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FD8-kQ-ZrI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3045.0381679389311" y="-681.69014084507046"/>
+        </scene>
+        <!--MenuMainVC-->
+        <scene sceneID="BHh-G6-61Z">
+            <objects>
+                <viewController id="2jb-ly-h0z" userLabel="MenuMainVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IeU-u1-wNT">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ekY-r1-UfN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Myt-SQ-lIN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3602" y="-1360"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

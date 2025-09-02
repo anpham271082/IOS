@@ -34,6 +34,7 @@ let demoItems: [DemoItem] = [
 	DemoItem(title: "Particle Text", destination: AnyView(ParticleText())),
 	DemoItem(title: "Shimmer Text", destination: AnyView(ShimmerText())),
 	DemoItem(title: "Radial Menu", destination: AnyView(RadialMenu())),
+	DemoItem(title: "Radial Menu", destination: AnyView(Animated3DDrawer())),
 	
 ]
 

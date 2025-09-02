@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		062DBC0D2E629AC000B67871 /* Animated3DDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062DBC0C2E629ABF00B67871 /* Animated3DDrawer.swift */; };
 		06506E6F2DF53F42008AB5CD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06506E6E2DF53F42008AB5CD /* CoreData.framework */; };
 		06506E712DF53F4B008AB5CD /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06506E702DF53F4B008AB5CD /* CoreMedia.framework */; };
 		06506ECB2DF5405D008AB5CD /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06506ECA2DF5405D008AB5CD /* Social.framework */; };
@@ -167,6 +168,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		062DBC0C2E629ABF00B67871 /* Animated3DDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animated3DDrawer.swift; sourceTree = "<group>"; };
 		06506C512DF14E0B008AB5CD /* my_app_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = my_app_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06506C672DF14E0D008AB5CD /* my_app_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = my_app_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06506C712DF14E0D008AB5CD /* my_app_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = my_app_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -726,6 +728,7 @@
 				06B9B8942E0061E30018D81B /* Tutorial1.swift */,
 				06B9B8962E011A940018D81B /* Tutorial2.swift */,
 				066E70532E4AE09000A0B194 /* ItemsTableViewCell.swift */,
+				062DBC0C2E629ABF00B67871 /* Animated3DDrawer.swift */,
 				066E70552E4AE0A800A0B194 /* ItemsViewController.swift */,
 				066E70572E4B731A00A0B194 /* SlideImageViewController.swift */,
 				066E70592E4B733500A0B194 /* FullScreenZoomImageViewController.swift */,
@@ -1323,6 +1326,7 @@
 				06B9B78B2DF6732E0018D81B /* EGORefreshTableHeaderView.m in Sources */,
 				06B9B84A2DF86EF70018D81B /* Global.swift in Sources */,
 				06B9B84B2DF86EF70018D81B /* UtilsValidation.swift in Sources */,
+				062DBC0D2E629AC000B67871 /* Animated3DDrawer.swift in Sources */,
 				06F65D372E39D2D600AE3513 /* SwipeCardViewController.swift in Sources */,
 				06B9B84C2DF86EF70018D81B /* UtilsCrypto.swift in Sources */,
 				06B9B84D2DF86EF70018D81B /* PerCoreData.swift in Sources */,

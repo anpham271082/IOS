@@ -13,7 +13,7 @@ class LetterScene: SKScene {
 	private var particles: [SKShapeNode] = []
 	private var targetPositions: [CGPoint] = []
 	private let text = "An Pham Ngoc"
-	private let fontSize: CGFloat = 80
+	private let fontSize: CGFloat = 40
 	private let particleSize: CGFloat = 1
 	private let particleSpacing: CGFloat = 2
 	
